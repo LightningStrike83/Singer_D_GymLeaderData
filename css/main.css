@@ -1,0 +1,61 @@
+body {
+    background-color: rgb(24, 24, 24);
+}
+
+.hidden {
+    display: none;
+}
+
+#container {
+    margin: 0 auto;
+}
+
+p {
+    color: white;
+}
+
+#instructions {
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+
+#main_title {
+    font-family: 'Silkscreen';
+    font-size: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    color: white;
+    background-color: red;
+}
+
+#instructions_text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    background-color: white;
+    color: black;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+li {
+    float: left;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+li p {
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+li div {
+    display: flex;
+    flex-direction: row;
+}
