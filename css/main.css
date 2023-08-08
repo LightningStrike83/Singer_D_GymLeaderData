@@ -32,15 +32,14 @@ p {
 }
 
 #instructions_text {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
     text-align: center;
     background-color: white;
     color: black;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     padding-left: 20px;
     padding-right: 20px;
+    line-height: 30px;
 }
 
 li {
@@ -50,6 +49,7 @@ li {
 }
 
 li p {
+    font-family: Arial, Helvetica, sans-serif;
     color: white;
     text-decoration: underline;
     cursor: pointer;
@@ -58,4 +58,59 @@ li p {
 li div {
     display: flex;
     flex-direction: row;
+}
+
+#rbg_chars, #y_chars, #gs_chars, #c_chars, #rs_chars, #frlg_chars, #e_chars, #dp_chars, #hgss_chars, #pt_chars, #bw_chars, #b2w2_chars, #xy_chars, #oras_chars, #sm_chars, #usum_chars, #lgpe_chars, #swsh_chars, #bdsp_chars, #sv_chars {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 1px solid white;
+    padding-top: 10px;
+    display: none;
+}
+
+.character_name {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+}
+
+.character_name p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#spoilers {
+    color: red;
+}
+
+#table {
+    display: flex;
+    flex-direction: row;
+}
+
+#trainer_image {
+    height: 300px;
+    width: 200px;
+    border: 1px solid white;
+}
+
+#pokemon {
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    width: 100px;
+}
+
+.pokemon_image {
+    height: 100px;
+    border: 1px solid white;
+}
+
+.text {
+    height: 30px;
+    width: 150px;
+    border: 1px solid white;
 }
