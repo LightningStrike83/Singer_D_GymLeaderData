@@ -60,6 +60,10 @@ li div {
     flex-direction: row;
 }
 
+#games {
+    margin-bottom: 10px;
+}
+
 #rbg_chars, #y_chars, #gs_chars, #c_chars, #rs_chars, #frlg_chars, #e_chars, #dp_chars, #hgss_chars, #pt_chars, #bw_chars, #b2w2_chars, #xy_chars, #oras_chars, #sm_chars, #usum_chars, #lgpe_chars, #swsh_chars, #bdsp_chars, #sv_chars {
     display: flex;
     flex-direction: row;
@@ -67,13 +71,15 @@ li div {
     border: 1px solid white;
     padding-top: 10px;
     display: none;
+    margin-bottom: 20px;
+    cursor: pointer;
 }
 
 .character_name {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding-right: 10px;
+    margin-right: 10px;
     padding-bottom: 10px;
     padding-left: 5px;
 }
@@ -114,6 +120,15 @@ li div {
     height: 30px;
     width: 150px;
     border: 1px solid white;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.text p {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #bottom {

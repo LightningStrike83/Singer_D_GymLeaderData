@@ -1,0 +1,31 @@
+OG games:
+        name : "",
+        level : "",
+        type : "",
+        item : "",
+        hp : "HP: ",
+        atk : "Atk: ",
+        def : "Def: ",
+        sp : "Special: ",
+        spd : "Speed: ",
+        move1 : "",
+        move2 : "",
+        move3 : "",
+        move4 : "",
+
+Modern:
+
+        name : "",
+        level : "",
+        type : "",
+        item : "",
+        hp : "HP:",
+        atk : "Atk:",
+        def : "Def:",
+        spatk : "Sp. Atk:",
+        spdef : "Sp. Def:
+        spd : "Spd:",
+        move1 : "",
+        move2 : "",
+        move3 : "",
+        move4 : "",
