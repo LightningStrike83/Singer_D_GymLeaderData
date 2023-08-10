@@ -68,7 +68,7 @@ let rbg_trainers = [
         spdb : "Speed: 56",
         move1b : "-Tackle",
         move2b : "-Water Gun",
-        move3b : "-Bubblebeam",
+        move3b : "-BubbleBeam",
         move4b : "",
     },
 
@@ -403,7 +403,7 @@ let rbg_trainers = [
         move1e : "-Stomp",
         move2e : "-Tail Whip",
         move3e : "-Fissure",
-        move4e : "-Horn Drilla",
+        move4e : "-Horn Drill",
     },
 
     {
@@ -465,7 +465,7 @@ let rbg_trainers = [
 
         namee : "Lapras",
         levele : "LV: 56",
-        typee : "Type: Water/Psychic",
+        typee : "Type: Water/Ice",
         iteme : "Item: None",
         hpe : "HP: 220",
         atke : "Atk: 110",
@@ -667,7 +667,7 @@ let rbg_trainers = [
 
         named : "Aerodactyl",
         leveld : "LV: 60",
-        typed : "Type:",
+        typed : "Type: Rock/Flying",
         itemd : "Item: None",
         hpd : "HP: 175",
         atkd : "Atk: 141",
