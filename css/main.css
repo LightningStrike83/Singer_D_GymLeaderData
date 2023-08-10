@@ -123,12 +123,12 @@ li div {
     display: flex;
     flex-wrap: wrap;
     align-content: center;
-    justify-content: center;
 }
 
 .text p {
-    font-size: 16px;
+    font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
+    padding-left: 5px;
 }
 
 #bottom {

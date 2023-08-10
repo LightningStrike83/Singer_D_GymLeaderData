@@ -1,25 +1,37 @@
 console.log('Welcome to the world of Pokemon!')
 
-let rbgGame = document.querySelector ("#rbg");
-let brockRBG = document.querySelector ("#brock1");
-let mistyRBG = document.querySelector ("#misty1");
+let rbgGame = document.querySelector("#rbg");
+let yGame = document.querySelector("#y");
+
+function toggleDisplay(element) {
+    if (element.style.display === "none") {
+        element.style.display = "flex";
+    } else {
+        element.style.display = "none";
+    }
+}
+
+function hideOtherCharacters(activeChars, otherChars) {
+    if (activeChars.style.display === "flex") {
+        otherChars.style.display = "none";
+    }
+}
 
 function openRBG() {
-    let rbgChars = document.querySelector ("#rbg_chars");
-    if (rbgChars.style.display === "none") {
-        rbgChars.style.display = "flex";
-      } else {
-        rbgChars.style.display = "none";
-      }
+    let rbgChars = document.querySelector("#rbg_chars");
+    let yChars = document.querySelector("#y_chars");
+    
+    toggleDisplay(rbgChars);
+    hideOtherCharacters(rbgChars, yChars);
 }
 
-function displayRBGTrainers() {
-    let rgbTrainer = this.dataset.member;
-
-    document.querySelector('#name1').textContent = rbg_trainers [rgbTrainer].name;
-    document.querySelector('#name2').textContent = rbg_trainers [rgbTrainer].name2;
+function openY() {
+    let rbgChars = document.querySelector("#rbg_chars");
+    let yChars = document.querySelector("#y_chars");
+    
+    toggleDisplay(yChars);
+    hideOtherCharacters(yChars, rbgChars);
 }
 
-rbgGame.addEventListener('click',openRBG);
-brockRBG.addEventListener('click', displayRBGTrainers)
-mistyRBG.addEventListener('click', displayRBGTrainers)
+rbgGame.addEventListener('click', openRBG);
+yGame.addEventListener('click', openY);
