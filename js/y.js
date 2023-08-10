@@ -1,0 +1,15 @@
+let brockY = document.querySelector ("#brock2");
+let mistyY = document.querySelector ("#misty2");
+let ltsurgeY = document.querySelector ("#ltsurge2");
+let erikaY = document.querySelector ("#erika2");
+let kogaY = document.querySelector ("#koga2");
+let sabrinaY = document.querySelector ("#sabrina2");
+let blaineY = document.querySelector ("#blaine2");
+let giovanniY = document.querySelector ("#giovanni2");
+let loreleiY = document.querySelector ("#lorelei2");
+let brunoY = document.querySelector ("#bruno2");
+let agathaY = document.querySelector ("#agatha2");
+let lanceY = document.querySelector ("#lance2");
+let bluevY = document.querySelector ("#blue1_v");
+let bluejY = document.querySelector ("#blue1_j");
+let bluefY = document.querySelector ("#blue1_f");
