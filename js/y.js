@@ -289,7 +289,7 @@ let y_trainers = [
         spa : "Special: 83",
         spda : "Speed: 133",
         move1a : "-Dig",
-        move2a : "-Sand-Attack",
+        move2a : "-Sand Attack",
         move3a : "-Fissure",
         move4a : "-Earthquake",
 
@@ -899,17 +899,24 @@ let y_trainers = [
 ]
 
 function displayYTrainers() {
+    updateSpd1Content();
+    updateSpd2Content();
+    updateSpd3Content();
+    updateSpd4Content();
+    updateSpd5Content();
+    updateSpd6Content();
     let yTrainer = this.dataset.member;
 
     document.querySelector('#name1').textContent = y_trainers [yTrainer].namea;
     document.querySelector('#level1').textContent = y_trainers [yTrainer].levela;
     document.querySelector('#type1').textContent = y_trainers [yTrainer].typea;
+    document.querySelector('#ability1').textContent= y_trainers [yTrainer].abilitya;
     document.querySelector('#item1').textContent = y_trainers [yTrainer].itema;
     document.querySelector('#hp1').textContent = y_trainers [yTrainer].hpa;
     document.querySelector('#atk1').textContent = y_trainers [yTrainer].atka;
     document.querySelector('#def1').textContent = y_trainers [yTrainer].defa;
     document.querySelector('#spatk1').textContent = y_trainers [yTrainer].spa;
-    document.querySelector('#speed1').textContent = y_trainers [yTrainer].spda;
+    document.querySelector('#spdef1').textContent = y_trainers [yTrainer].spda;
     document.querySelector('#move1_1').textContent = y_trainers [yTrainer].move1a;
     document.querySelector('#move2_1').textContent = y_trainers [yTrainer].move2a;
     document.querySelector('#move3_1').textContent = y_trainers [yTrainer].move3a;
@@ -919,12 +926,13 @@ function displayYTrainers() {
     document.querySelector('#name2').textContent = y_trainers [yTrainer].nameb;
     document.querySelector('#level2').textContent = y_trainers [yTrainer].levelb;
     document.querySelector('#type2').textContent = y_trainers [yTrainer].typeb;
+    document.querySelector('#ability2').textContent= y_trainers [yTrainer].abilityb;
     document.querySelector('#item2').textContent = y_trainers [yTrainer].itemb;
     document.querySelector('#hp2').textContent = y_trainers [yTrainer].hpb;
     document.querySelector('#atk2').textContent = y_trainers [yTrainer].atkb;
     document.querySelector('#def2').textContent = y_trainers [yTrainer].defb;
     document.querySelector('#spatk2').textContent = y_trainers [yTrainer].spb;
-    document.querySelector('#speed2').textContent = y_trainers [yTrainer].spdb;
+    document.querySelector('#spdef2').textContent = y_trainers [yTrainer].spdb;
     document.querySelector('#move1_2').textContent = y_trainers [yTrainer].move1b;
     document.querySelector('#move2_2').textContent = y_trainers [yTrainer].move2b;
     document.querySelector('#move3_2').textContent = y_trainers [yTrainer].move3b;
@@ -933,12 +941,13 @@ function displayYTrainers() {
     document.querySelector('#name3').textContent = y_trainers [yTrainer].namec;
     document.querySelector('#level3').textContent = y_trainers [yTrainer].levelc;
     document.querySelector('#type3').textContent = y_trainers [yTrainer].typec;
+    document.querySelector('#ability3').textContent= y_trainers [yTrainer].abilityc;
     document.querySelector('#item3').textContent = y_trainers [yTrainer].itemc;
     document.querySelector('#hp3').textContent = y_trainers [yTrainer].hpc;
     document.querySelector('#atk3').textContent = y_trainers [yTrainer].atkc;
     document.querySelector('#def3').textContent = y_trainers [yTrainer].defc;
     document.querySelector('#spatk3').textContent = y_trainers [yTrainer].spc;
-    document.querySelector('#speed3').textContent = y_trainers [yTrainer].spdc;
+    document.querySelector('#spdef3').textContent = y_trainers [yTrainer].spdc;
     document.querySelector('#move1_3').textContent = y_trainers [yTrainer].move1c;
     document.querySelector('#move2_3').textContent = y_trainers [yTrainer].move2c;
     document.querySelector('#move3_3').textContent = y_trainers [yTrainer].move3c;
@@ -947,12 +956,13 @@ function displayYTrainers() {
     document.querySelector('#name4').textContent = y_trainers [yTrainer].named;
     document.querySelector('#level4').textContent = y_trainers [yTrainer].leveld;
     document.querySelector('#type4').textContent = y_trainers [yTrainer].typed;
+    document.querySelector('#ability4').textContent= y_trainers [yTrainer].abilityd;
     document.querySelector('#item4').textContent = y_trainers [yTrainer].itemd;
     document.querySelector('#hp4').textContent = y_trainers [yTrainer].hpd;
     document.querySelector('#atk4').textContent = y_trainers [yTrainer].atkd;
     document.querySelector('#def4').textContent = y_trainers [yTrainer].defd;
     document.querySelector('#spatk4').textContent = y_trainers [yTrainer].spd;
-    document.querySelector('#speed4').textContent = y_trainers [yTrainer].spdd;
+    document.querySelector('#spdef4').textContent = y_trainers [yTrainer].spdd;
     document.querySelector('#move1_4').textContent = y_trainers [yTrainer].move1d;
     document.querySelector('#move2_4').textContent = y_trainers [yTrainer].move2d;
     document.querySelector('#move3_4').textContent = y_trainers [yTrainer].move3d;
@@ -961,12 +971,13 @@ function displayYTrainers() {
     document.querySelector('#name5').textContent = y_trainers [yTrainer].namee;
     document.querySelector('#level5').textContent = y_trainers [yTrainer].levele;
     document.querySelector('#type5').textContent = y_trainers [yTrainer].typee;
+    document.querySelector('#ability5').textContent= y_trainers [yTrainer].abilitye;
     document.querySelector('#item5').textContent = y_trainers [yTrainer].iteme;
     document.querySelector('#hp5').textContent = y_trainers [yTrainer].hpe;
     document.querySelector('#atk5').textContent = y_trainers [yTrainer].atke;
     document.querySelector('#def5').textContent = y_trainers [yTrainer].defe;
     document.querySelector('#spatk5').textContent = y_trainers [yTrainer].spe;
-    document.querySelector('#speed5').textContent = y_trainers [yTrainer].spde;
+    document.querySelector('#spdef5').textContent = y_trainers [yTrainer].spde;
     document.querySelector('#move1_5').textContent = y_trainers [yTrainer].move1e;
     document.querySelector('#move2_5').textContent = y_trainers [yTrainer].move2e;
     document.querySelector('#move3_5').textContent = y_trainers [yTrainer].move3e;
@@ -975,16 +986,41 @@ function displayYTrainers() {
     document.querySelector('#name6').textContent = y_trainers [yTrainer].namef;
     document.querySelector('#level6').textContent = y_trainers [yTrainer].levelf;
     document.querySelector('#type6').textContent = y_trainers [yTrainer].typef;
+    document.querySelector('#ability6').textContent= y_trainers [yTrainer].abilityf;
     document.querySelector('#item6').textContent = y_trainers [yTrainer].itemf;
     document.querySelector('#hp6').textContent = y_trainers [yTrainer].hpf;
     document.querySelector('#atk6').textContent = y_trainers [yTrainer].atkf;
     document.querySelector('#def6').textContent = y_trainers [yTrainer].deff;
     document.querySelector('#spatk6').textContent = y_trainers [yTrainer].spf;
-    document.querySelector('#speed6').textContent = y_trainers [yTrainer].spdf;
+    document.querySelector('#spdef6').textContent = y_trainers [yTrainer].spdf;
     document.querySelector('#move1_6').textContent = y_trainers [yTrainer].move1f;
     document.querySelector('#move2_6').textContent = y_trainers [yTrainer].move2f;
     document.querySelector('#move3_6').textContent = y_trainers [yTrainer].move3f;
     document.querySelector('#move4_6').textContent = y_trainers [yTrainer].move4f;
+}
+
+function updateSpd1Content() {
+    document.querySelector('#spd1').textContent = '';
+};
+
+function updateSpd2Content() {
+    document.querySelector('#spd2').textContent = '';
+}
+
+function updateSpd3Content() {
+    document.querySelector('#spd3').textContent = '';
+}
+
+function updateSpd4Content() {
+        document.querySelector('#spd4').textContent = '';
+}
+
+function updateSpd5Content() {
+        document.querySelector('#spd5').textContent = '';
+}
+
+function updateSpd6Content() {
+        document.querySelector('#spd6').textContent = '';
 }
 
 brockY.addEventListener('click', displayYTrainers);
