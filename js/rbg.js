@@ -19,6 +19,7 @@ let rbg_trainers = [
         namea : "Geodude",
         levela : "LV: 12",
         typea : "Type: Rock/Ground",
+        abilitya: "Ability: N/A",
         itema : "Item: None",
         hpa : "HP: 33",
         atka : "Atk: 26",
@@ -31,6 +32,7 @@ let rbg_trainers = [
         nameb : "Onix",
         levelb : "LV: 14",
         typeb : "Type: Rock/Ground",
+        abilityb: "Ability: N/A",
         itemb : "Item: None",
         hpb : "HP: 36",
         atkb : "Atk: 20",
@@ -84,7 +86,7 @@ let rbg_trainers = [
         spda : "Speed: 31",
         move1a : "-Tackle",
         move2a : "-Screech",
-        move3a : "-Sonicboom",
+        move3a : "-Sonic Boom",
         move4a : "",
 
         nameb : "Pikachu",
@@ -96,7 +98,7 @@ let rbg_trainers = [
         defb : "Def: 18",
         spb : "Special: 25",
         spdb : "Speed: 40",
-        move1b : "-ThunderShock",
+        move1b : "-Thunder Shock",
         move2b : "-Growl",
         move3b : "-Thunder Wave",
         move4b : "-Quick Attack",
@@ -110,7 +112,7 @@ let rbg_trainers = [
         defc : "Def: 35",
         spc : "Special: 52",
         spdc : "Speed: 56",
-        move1c : "-ThunderShock",
+        move1c : "-Thunder Shock",
         move2c : "-Growl",
         move3c : "-Thunderbolt",
         move4c : "",
@@ -215,7 +217,7 @@ let rbg_trainers = [
         move1d : "-Smog",
         move2d : "-Sludge",
         move3d : "-Toxic",
-        move4d : "-Selfdestruct",
+        move4d : "-Self-Destruct",
     },
 
     {
@@ -360,7 +362,7 @@ let rbg_trainers = [
         spdb : "Speed: 112",
         move1b : "-Growl",
         move2b : "-Dig",
-        move3b : "-Sand-Attack",
+        move3b : "-Sand Attack",
         move4b : "-Slash",
 
         namec : "Nidoqueen",
@@ -940,6 +942,7 @@ let rbg_trainers = [
         namef : "Blastoise",
         levelf : "LV: 65",
         typef : "Type: Water",
+        abilityf: "Ability: N/A",
         itemf : "Item: None",
         hpf : "HP: 188",
         atkf : "Atk: 124",
@@ -955,17 +958,24 @@ let rbg_trainers = [
 ]
 
 function displayRBGTrainers() {
+    updateSpd1Content();
+    updateSpd2Content();
+    updateSpd3Content();
+    updateSpd4Content();
+    updateSpd5Content();
+    updateSpd6Content();
     let rgbTrainer = this.dataset.member;
 
     document.querySelector('#name1').textContent = rbg_trainers [rgbTrainer].namea;
     document.querySelector('#level1').textContent = rbg_trainers [rgbTrainer].levela;
     document.querySelector('#type1').textContent = rbg_trainers [rgbTrainer].typea;
+    document.querySelector('#ability1').textContent= rbg_trainers [rgbTrainer].abilitya;
     document.querySelector('#item1').textContent = rbg_trainers [rgbTrainer].itema;
     document.querySelector('#hp1').textContent = rbg_trainers [rgbTrainer].hpa;
     document.querySelector('#atk1').textContent = rbg_trainers [rgbTrainer].atka;
     document.querySelector('#def1').textContent = rbg_trainers [rgbTrainer].defa;
     document.querySelector('#spatk1').textContent = rbg_trainers [rgbTrainer].spa;
-    document.querySelector('#speed1').textContent = rbg_trainers [rgbTrainer].spda;
+    document.querySelector('#spdef1').textContent = rbg_trainers [rgbTrainer].spda;
     document.querySelector('#move1_1').textContent = rbg_trainers [rgbTrainer].move1a;
     document.querySelector('#move2_1').textContent = rbg_trainers [rgbTrainer].move2a;
     document.querySelector('#move3_1').textContent = rbg_trainers [rgbTrainer].move3a;
@@ -975,12 +985,13 @@ function displayRBGTrainers() {
     document.querySelector('#name2').textContent = rbg_trainers [rgbTrainer].nameb;
     document.querySelector('#level2').textContent = rbg_trainers [rgbTrainer].levelb;
     document.querySelector('#type2').textContent = rbg_trainers [rgbTrainer].typeb;
+    document.querySelector('#ability2').textContent= rbg_trainers [rgbTrainer].abilityb;
     document.querySelector('#item2').textContent = rbg_trainers [rgbTrainer].itemb;
     document.querySelector('#hp2').textContent = rbg_trainers [rgbTrainer].hpb;
     document.querySelector('#atk2').textContent = rbg_trainers [rgbTrainer].atkb;
     document.querySelector('#def2').textContent = rbg_trainers [rgbTrainer].defb;
     document.querySelector('#spatk2').textContent = rbg_trainers [rgbTrainer].spb;
-    document.querySelector('#speed2').textContent = rbg_trainers [rgbTrainer].spdb;
+    document.querySelector('#spdef2').textContent = rbg_trainers [rgbTrainer].spdb;
     document.querySelector('#move1_2').textContent = rbg_trainers [rgbTrainer].move1b;
     document.querySelector('#move2_2').textContent = rbg_trainers [rgbTrainer].move2b;
     document.querySelector('#move3_2').textContent = rbg_trainers [rgbTrainer].move3b;
@@ -989,12 +1000,13 @@ function displayRBGTrainers() {
     document.querySelector('#name3').textContent = rbg_trainers [rgbTrainer].namec;
     document.querySelector('#level3').textContent = rbg_trainers [rgbTrainer].levelc;
     document.querySelector('#type3').textContent = rbg_trainers [rgbTrainer].typec;
+    document.querySelector('#ability3').textContent= rbg_trainers [rgbTrainer].abilityc;
     document.querySelector('#item3').textContent = rbg_trainers [rgbTrainer].itemc;
     document.querySelector('#hp3').textContent = rbg_trainers [rgbTrainer].hpc;
     document.querySelector('#atk3').textContent = rbg_trainers [rgbTrainer].atkc;
     document.querySelector('#def3').textContent = rbg_trainers [rgbTrainer].defc;
     document.querySelector('#spatk3').textContent = rbg_trainers [rgbTrainer].spc;
-    document.querySelector('#speed3').textContent = rbg_trainers [rgbTrainer].spdc;
+    document.querySelector('#spdef3').textContent = rbg_trainers [rgbTrainer].spdc;
     document.querySelector('#move1_3').textContent = rbg_trainers [rgbTrainer].move1c;
     document.querySelector('#move2_3').textContent = rbg_trainers [rgbTrainer].move2c;
     document.querySelector('#move3_3').textContent = rbg_trainers [rgbTrainer].move3c;
@@ -1003,12 +1015,13 @@ function displayRBGTrainers() {
     document.querySelector('#name4').textContent = rbg_trainers [rgbTrainer].named;
     document.querySelector('#level4').textContent = rbg_trainers [rgbTrainer].leveld;
     document.querySelector('#type4').textContent = rbg_trainers [rgbTrainer].typed;
+    document.querySelector('#ability4').textContent= rbg_trainers [rgbTrainer].abilityd;
     document.querySelector('#item4').textContent = rbg_trainers [rgbTrainer].itemd;
     document.querySelector('#hp4').textContent = rbg_trainers [rgbTrainer].hpd;
     document.querySelector('#atk4').textContent = rbg_trainers [rgbTrainer].atkd;
     document.querySelector('#def4').textContent = rbg_trainers [rgbTrainer].defd;
     document.querySelector('#spatk4').textContent = rbg_trainers [rgbTrainer].spd;
-    document.querySelector('#speed4').textContent = rbg_trainers [rgbTrainer].spdd;
+    document.querySelector('#spdef4').textContent = rbg_trainers [rgbTrainer].spdd;
     document.querySelector('#move1_4').textContent = rbg_trainers [rgbTrainer].move1d;
     document.querySelector('#move2_4').textContent = rbg_trainers [rgbTrainer].move2d;
     document.querySelector('#move3_4').textContent = rbg_trainers [rgbTrainer].move3d;
@@ -1017,12 +1030,13 @@ function displayRBGTrainers() {
     document.querySelector('#name5').textContent = rbg_trainers [rgbTrainer].namee;
     document.querySelector('#level5').textContent = rbg_trainers [rgbTrainer].levele;
     document.querySelector('#type5').textContent = rbg_trainers [rgbTrainer].typee;
+    document.querySelector('#ability5').textContent= rbg_trainers [rgbTrainer].abilitye;
     document.querySelector('#item5').textContent = rbg_trainers [rgbTrainer].iteme;
     document.querySelector('#hp5').textContent = rbg_trainers [rgbTrainer].hpe;
     document.querySelector('#atk5').textContent = rbg_trainers [rgbTrainer].atke;
     document.querySelector('#def5').textContent = rbg_trainers [rgbTrainer].defe;
     document.querySelector('#spatk5').textContent = rbg_trainers [rgbTrainer].spe;
-    document.querySelector('#speed5').textContent = rbg_trainers [rgbTrainer].spde;
+    document.querySelector('#spdef5').textContent = rbg_trainers [rgbTrainer].spde;
     document.querySelector('#move1_5').textContent = rbg_trainers [rgbTrainer].move1e;
     document.querySelector('#move2_5').textContent = rbg_trainers [rgbTrainer].move2e;
     document.querySelector('#move3_5').textContent = rbg_trainers [rgbTrainer].move3e;
@@ -1031,16 +1045,41 @@ function displayRBGTrainers() {
     document.querySelector('#name6').textContent = rbg_trainers [rgbTrainer].namef;
     document.querySelector('#level6').textContent = rbg_trainers [rgbTrainer].levelf;
     document.querySelector('#type6').textContent = rbg_trainers [rgbTrainer].typef;
+    document.querySelector('#ability6').textContent= rbg_trainers [rgbTrainer].abilityf;
     document.querySelector('#item6').textContent = rbg_trainers [rgbTrainer].itemf;
     document.querySelector('#hp6').textContent = rbg_trainers [rgbTrainer].hpf;
     document.querySelector('#atk6').textContent = rbg_trainers [rgbTrainer].atkf;
     document.querySelector('#def6').textContent = rbg_trainers [rgbTrainer].deff;
     document.querySelector('#spatk6').textContent = rbg_trainers [rgbTrainer].spf;
-    document.querySelector('#speed6').textContent = rbg_trainers [rgbTrainer].spdf;
+    document.querySelector('#spdef6').textContent = rbg_trainers [rgbTrainer].spdf;
     document.querySelector('#move1_6').textContent = rbg_trainers [rgbTrainer].move1f;
     document.querySelector('#move2_6').textContent = rbg_trainers [rgbTrainer].move2f;
     document.querySelector('#move3_6').textContent = rbg_trainers [rgbTrainer].move3f;
     document.querySelector('#move4_6').textContent = rbg_trainers [rgbTrainer].move4f;
+}
+
+function updateSpd1Content() {
+    document.querySelector('#spd1').textContent = '';
+};
+
+function updateSpd2Content() {
+    document.querySelector('#spd2').textContent = '';
+}
+
+function updateSpd3Content() {
+    document.querySelector('#spd3').textContent = '';
+}
+
+function updateSpd4Content() {
+        document.querySelector('#spd4').textContent = '';
+}
+
+function updateSpd5Content() {
+        document.querySelector('#spd5').textContent = '';
+}
+
+function updateSpd6Content() {
+        document.querySelector('#spd6').textContent = '';
 }
 
 brockRBG.addEventListener('click', displayRBGTrainers);
