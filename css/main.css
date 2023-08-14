@@ -92,6 +92,11 @@ li div {
     color: red;
 }
 
+#note {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
 #table {
     display: flex;
     flex-direction: row;

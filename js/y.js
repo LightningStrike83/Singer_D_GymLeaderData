@@ -447,7 +447,7 @@ let y_trainers = [
         spb : "Special: 52",
         spdb : "Speed: 97",
         move1b : "-Ice Punch",
-        move2b : "-ThunderPunch",
+        move2b : "-Thunder Punch",
         move3b : "-Fire Punch",
         move4b : "-Double Team",
 

@@ -1,0 +1,128 @@
+let roarkDP = document.querySelector ("#roark1");
+let gardeniaDP = document.querySelector ("#gardenia1");
+let mayleneDP = document.querySelector ("#maylene1");
+let crasherwakeDP = document.querySelector ("#crasherwake1");
+let fantinaDP = document.querySelector ("#fantina1");
+let byronDP = document.querySelector ("#byron1");
+let candiceDP = document.querySelector ("#candice1");
+let volknerDP = document.querySelector ("#volkner1");
+let aaronDP = document.querySelector ("#aaron1");
+let berthaDP = document.querySelector ("#bertha1");
+let flintDP = document.querySelector ("#flint1");
+let lucianDP = document.querySelector ("#lucian1");
+let cynthiaDP = document.querySelector ("#cynthia1");
+
+function displaydpTrainers() {
+    let dpTrainer = this.dataset.member;
+
+    document.querySelector('#name1').textContent = dp_trainers [dpTrainer].namea;
+    document.querySelector('#level1').textContent = dp_trainers [dpTrainer].levela;
+    document.querySelector('#type1').textContent = dp_trainers [dpTrainer].typea;
+    document.querySelector('#ability1').textContent= dp_trainers [dpTrainer].abilitya;
+    document.querySelector('#item1').textContent = dp_trainers [dpTrainer].itema;
+    document.querySelector('#hp1').textContent = dp_trainers [dpTrainer].hpa;
+    document.querySelector('#atk1').textContent = dp_trainers [dpTrainer].atka;
+    document.querySelector('#def1').textContent = dp_trainers [dpTrainer].defa;
+    document.querySelector('#spatk1').textContent = dp_trainers [dpTrainer].spatka;
+    document.querySelector('#spdef1').textContent = dp_trainers [dpTrainer].spdefa;
+    document.querySelector('#spd1').textContent = dp_trainers [dpTrainer].spda;
+    document.querySelector('#move1_1').textContent = dp_trainers [dpTrainer].move1a;
+    document.querySelector('#move2_1').textContent = dp_trainers [dpTrainer].move2a;
+    document.querySelector('#move3_1').textContent = dp_trainers [dpTrainer].move3a;
+    document.querySelector('#move4_1').textContent = dp_trainers [dpTrainer].move4a;
+
+    
+    document.querySelector('#name2').textContent = dp_trainers [dpTrainer].nameb;
+    document.querySelector('#level2').textContent = dp_trainers [dpTrainer].levelb;
+    document.querySelector('#type2').textContent = dp_trainers [dpTrainer].typeb;
+    document.querySelector('#ability2').textContent= dp_trainers [dpTrainer].abilityb;
+    document.querySelector('#item2').textContent = dp_trainers [dpTrainer].itemb;
+    document.querySelector('#hp2').textContent = dp_trainers [dpTrainer].hpb;
+    document.querySelector('#atk2').textContent = dp_trainers [dpTrainer].atkb;
+    document.querySelector('#def2').textContent = dp_trainers [dpTrainer].defb;
+    document.querySelector('#spatk2').textContent = dp_trainers [dpTrainer].spatkb;
+    document.querySelector('#spdef2').textContent = dp_trainers [dpTrainer].spdefb;
+    document.querySelector('#spd2').textContent = dp_trainers [dpTrainer].spdb;
+    document.querySelector('#move1_2').textContent = dp_trainers [dpTrainer].move1b;
+    document.querySelector('#move2_2').textContent = dp_trainers [dpTrainer].move2b;
+    document.querySelector('#move3_2').textContent = dp_trainers [dpTrainer].move3b;
+    document.querySelector('#move4_2').textContent = dp_trainers [dpTrainer].move4b;
+
+    document.querySelector('#name3').textContent = dp_trainers [dpTrainer].namec;
+    document.querySelector('#level3').textContent = dp_trainers [dpTrainer].levelc;
+    document.querySelector('#type3').textContent = dp_trainers [dpTrainer].typec;
+    document.querySelector('#ability3').textContent= dp_trainers [dpTrainer].abilityc;
+    document.querySelector('#item3').textContent = dp_trainers [dpTrainer].itemc;
+    document.querySelector('#hp3').textContent = dp_trainers [dpTrainer].hpc;
+    document.querySelector('#atk3').textContent = dp_trainers [dpTrainer].atkc;
+    document.querySelector('#def3').textContent = dp_trainers [dpTrainer].defc;
+    document.querySelector('#spatk3').textContent = dp_trainers [dpTrainer].spatkc;
+    document.querySelector('#spdef3').textContent = dp_trainers [dpTrainer].spdefc;
+    document.querySelector('#spd3').textContent = dp_trainers [dpTrainer].spdc;
+    document.querySelector('#move1_3').textContent = dp_trainers [dpTrainer].move1c;
+    document.querySelector('#move2_3').textContent = dp_trainers [dpTrainer].move2c;
+    document.querySelector('#move3_3').textContent = dp_trainers [dpTrainer].move3c;
+    document.querySelector('#move4_3').textContent = dp_trainers [dpTrainer].move4c;
+
+    document.querySelector('#name4').textContent = dp_trainers [dpTrainer].named;
+    document.querySelector('#level4').textContent = dp_trainers [dpTrainer].leveld;
+    document.querySelector('#type4').textContent = dp_trainers [dpTrainer].typed;
+    document.querySelector('#ability4').textContent= dp_trainers [dpTrainer].abilityd;
+    document.querySelector('#item4').textContent = dp_trainers [dpTrainer].itemd;
+    document.querySelector('#hp4').textContent = dp_trainers [dpTrainer].hpd;
+    document.querySelector('#atk4').textContent = dp_trainers [dpTrainer].atkd;
+    document.querySelector('#def4').textContent = dp_trainers [dpTrainer].defd;
+    document.querySelector('#spatk4').textContent = dp_trainers [dpTrainer].spatkd;
+    document.querySelector('#spdef4').textContent = dp_trainers [dpTrainer].spdefd;
+    document.querySelector('#spd4').textContent = dp_trainers [dpTrainer].spdd;
+    document.querySelector('#move1_4').textContent = dp_trainers [dpTrainer].move1d;
+    document.querySelector('#move2_4').textContent = dp_trainers [dpTrainer].move2d;
+    document.querySelector('#move3_4').textContent = dp_trainers [dpTrainer].move3d;
+    document.querySelector('#move4_4').textContent = dp_trainers [dpTrainer].move4d;
+
+    document.querySelector('#name5').textContent = dp_trainers [dpTrainer].namee;
+    document.querySelector('#level5').textContent = dp_trainers [dpTrainer].levele;
+    document.querySelector('#type5').textContent = dp_trainers [dpTrainer].typee;
+    document.querySelector('#ability5').textContent= dp_trainers [dpTrainer].abilitye;
+    document.querySelector('#item5').textContent = dp_trainers [dpTrainer].iteme;
+    document.querySelector('#hp5').textContent = dp_trainers [dpTrainer].hpe;
+    document.querySelector('#atk5').textContent = dp_trainers [dpTrainer].atke;
+    document.querySelector('#def5').textContent = dp_trainers [dpTrainer].defe;
+    document.querySelector('#spatk5').textContent = dp_trainers [dpTrainer].spatke;
+    document.querySelector('#spdef5').textContent = dp_trainers [dpTrainer].spdefe;
+    document.querySelector('#spd5').textContent = dp_trainers [dpTrainer].spde;
+    document.querySelector('#move1_5').textContent =dps_trainers [dpTrainer].move1e;
+    document.querySelector('#move2_5').textContent = dp_trainers [dpTrainer].move2e;
+    document.querySelector('#move3_5').textContent = dp_trainers [dpTrainer].move3e;
+    document.querySelector('#move4_5').textContent = dp_trainers [dpTrainer].move4e;
+
+    document.querySelector('#name6').textContent = dp_trainers [dpTrainer].namef;
+    document.querySelector('#level6').textContent = dp_trainers [dpTrainer].levelf;
+    document.querySelector('#type6').textContent = dp_trainers [dpTrainer].typef;
+    document.querySelector('#ability6').textContent= dp_trainers [dpTrainer].abilityf;
+    document.querySelector('#item6').textContent = dp_trainers [dpTrainer].itemf;
+    document.querySelector('#hp6').textContent = dp_trainers [dpTrainer].hpf;
+    document.querySelector('#atk6').textContent = dp_trainers [dpTrainer].atkf;
+    document.querySelector('#def6').textContent = dp_trainers [dpTrainer].deff;
+    document.querySelector('#spatk6').textContent = dp_trainers [dpTrainer].spatkf;
+    document.querySelector('#spdef6').textContent = dp_trainers [dpTrainer].spdeff;
+    document.querySelector('#spd6').textContent = dp_trainers [dpTrainer].spdf;
+    document.querySelector('#move1_6').textContent = dp_trainers [dpTrainer].move1f;
+    document.querySelector('#move2_6').textContent = dp_trainers [dpTrainer].move2f;
+    document.querySelector('#move3_6').textContent = dp_trainers [dpTrainer].move3f;
+    document.querySelector('#move4_6').textContent = dp_trainers [dpTrainer].move4f;
+}
+
+roarkDP.addEventListener('click', displaydpTrainers);
+gardeniaDP.addEventListener('click', displaydpTrainers);
+mayleneDP.addEventListener('click', displaydpTrainers);
+crasherwakeDP.addEventListener('click', displaydpTrainers);
+fantinaDP.addEventListener('click', displaydpTrainers);
+byronDP.addEventListener('click', displaydpTrainers);
+candiceDP.addEventListener('click', displaydpTrainers);
+volknerDP.addEventListener('click', displaydpTrainers);
+aaronDP.addEventListener('click', displaydpTrainers);
+berthaDP.addEventListener('click', displaydpTrainers);
+flintDP.addEventListener('click', displaydpTrainers);
+lucianDP.addEventListener('click', displaydpTrainers);
+cynthiaDP.addEventListener('click', displaydpTrainers);

@@ -1,8 +1,22 @@
+.addEventListener('click', displayTrainers);
+.addEventListener('click', displayTrainers);
+.addEventListener('click', displayTrainers);
+.addEventListener('click', displayTrainers);
+.addEventListener('click', displayTrainers);
+.addEventListener('click', displayTrainers);
+.addEventListener('click', displayTrainers);
+.addEventListener('click', displayTrainers);
+.addEventListener('click', displayTrainers);
+.addEventListener('click', displayTrainers);
+.addEventListener('click', displayTrainers);
+.addEventListener('click', displayTrainers);
+.addEventListener('click', displayTrainers);
+
 OG games:
         namea : "",
-        levela : "LV:",
-        typea : "Type:",
-        itema : "Item:",
+        levela : "LV: ",
+        typea : "Type: ",
+        itema : "Item: ",
         hpa : "HP: ",
         atka : "Atk: ",
         defa : "Def: ",
@@ -14,9 +28,9 @@ OG games:
         move4a : "-",
 
         nameb : "",
-        levelb : "LV:",
-        typeb : "Type:",
-        itemb : "Item:",
+        levelb : "LV: ",
+        typeb : "Type: ",
+        itemb : "Item: ",
         hpb : "HP: ",
         atkb : "Atk: ",
         defb : "Def: ",
@@ -28,9 +42,9 @@ OG games:
         move4b : "-",
 
         namec : "",
-        levelc : "LV:",
-        typec : "Type:",
-        itemc : "Item:",
+        levelc : "LV: ",
+        typec : "Type: ",
+        itemc : "Item: ",
         hpc : "HP: ",
         atkc : "Atk: ",
         defc : "Def: ",
@@ -42,9 +56,9 @@ OG games:
         move4c : "-",
 
         named : "",
-        leveld : "LV:",
-        typed : "Type:",
-        itemd : "Item:",
+        leveld : "LV: ",
+        typed : "Type: ",
+        itemd : "Item: ",
         hpd : "HP: ",
         atkd : "Atk: ",
         defd : "Def: ",
@@ -56,9 +70,9 @@ OG games:
         move4d : "-",
 
         namee : "",
-        levele : "LV:",
-        typee : "Type:",
-        iteme : "Item:",
+        levele : "LV: ",
+        typee : "Type: ",
+        iteme : "Item: ",
         hpe : "HP: ",
         atke : "Atk: ",
         defe : "Def: ",
@@ -70,9 +84,9 @@ OG games:
         move4e : "-",
 
         namef : "",
-        levelf : "LV:",
-        typef : "Type:",
-        itemf : "Item:",
+        levelf : "LV: ",
+        typef : "Type: ",
+        itemf : "Item: ",
         hpf : "HP: ",
         atkf : "Atk: ",
         deff : "Def: ",

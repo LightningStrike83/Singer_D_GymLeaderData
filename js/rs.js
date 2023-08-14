@@ -85,7 +85,7 @@ let rs_trainers = [
         namea : "Magnemite",
         levela : "LV: 22",
         typea : "Type: Electric/Steel",
-        abilitya: "Ability: None",
+        abilitya: "Ability: Magnet Pull",
         itema : "Item: None",
         hpa : "HP: 48",
         atka : "Atk: 25",
@@ -95,7 +95,7 @@ let rs_trainers = [
         spda : "Spd: 33",
         move1a : "-Supersonic",
         move2a : "-Sonicboom",
-        move3a : "-Thundershock",
+        move3a : "-Thunder Shock",
         move4a : "-Thunder Wave",
 
         nameb : "Voltorb",
@@ -246,7 +246,7 @@ let rs_trainers = [
         move1a : "-Quick Attack",
         move2a : "-Aerial Ace",
         move3a : "-Double Team",
-        move4a : "-Endeavour",
+        move4a : "-Endeavor",
 
         nameb : "Pelipper",
         levelb : "LV: 30",
