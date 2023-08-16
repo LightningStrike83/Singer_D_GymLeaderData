@@ -68,7 +68,7 @@ let bdsp_trainers = [
         levela : "LV: 19",
         typea : "Type: Grass",
         abilitya: "Ability: Chlorophyll",
-        itema : "Item: ",
+        itema : "Item: None",
         hpa : "HP: Unavailable",
         atka : "Atk: Unavailable",
         defa : "Def: Unavailable",
