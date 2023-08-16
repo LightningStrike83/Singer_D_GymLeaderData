@@ -10,6 +10,10 @@ DP data from: werster https://www.dropbox.com/s/utieptnrxl64ka3/Pearl%20Trainer%
 
 DP ability, item, and move data from: bulbapedia
 
+PT stats calculated from: MoneyHypeMike and majorkatsuragi https://www.dropbox.com/sh/9tfr2gxm9tabxjk/AAA-K8XULd16TQf_uLfSQaFda?preview=Pok%C3%A9mon+Platinum+-+Script+File+(Piplup).xlsx and https://calc.pokemonshowdown.com/
+
+PT move data from: bulbapedia
+
 ORAS data from: bulbapedia
 
 US/UM data from: Eevee-Trainer https://www.neoseeker.com/pokemon-ultra-sun/faqs/2905235-pokemon-usm-trainer.html
