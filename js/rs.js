@@ -326,7 +326,7 @@ let rs_trainers = [
         spatkb : "Sp. Atk: 63",
         spdefb : "Sp. Def: 72",
         spdb : "Spd: 76",
-        move1b : "-Solarbeam",
+        move1b : "-Solar Beam",
         move2b : "-Psychic",
         move3b : "-Flamethrower",
         move4b : "-Sunny Day",
@@ -774,7 +774,7 @@ let rs_trainers = [
         spdb : "Spd: 104",
         move1b : "-Reflect",
         move2b : "-Light Screen",
-        move3b : "-Ancientpower",
+        move3b : "-Ancient Power",
         move4b : "-Earthquake",
 
         namec : "Aggron",
@@ -790,7 +790,7 @@ let rs_trainers = [
         spdc : "Spd: 85",
         move1c : "-Thunder",
         move2c : "-Earthquake",
-        move3c : "-Solarbeam",
+        move3c : "-Solar Beam",
         move4c : "-Dragon Claw",
 
         named : "Cradily",
@@ -805,7 +805,7 @@ let rs_trainers = [
         spdefd : "Sp. Def: 127",
         spdd : "Spd: 77",
         move1d : "-Giga Drain",
-        move2d : "-Ancientpower",
+        move2d : "-Ancient Power",
         move3d : "-Sludge Bomb",
         move4d : "-Confuse Ray",
 
@@ -822,7 +822,7 @@ let rs_trainers = [
         spde : "Spd: 72",
         move1e : "-Water Pulse",
         move2e : "-Aerial Ace",
-        move3e : "-Ancientpower",
+        move3e : "-Ancient Power",
         move4e : "-Slash",
 
         namef : "Metagross",

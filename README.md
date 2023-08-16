@@ -6,6 +6,10 @@ Data for Ruby/Sapphire/LeafGreen/FireRed/Emerald from: roushmore https://docs.go
 
 Emerald ability and item data from: bulbapedia
 
+DP data from: werster https://www.dropbox.com/s/utieptnrxl64ka3/Pearl%20Trainer%20data.xlsx 
+
+DP ability, item, and move data from: bulbapedia
+
 ORAS data from: bulbapedia
 
 US/UM data from: Eevee-Trainer https://www.neoseeker.com/pokemon-ultra-sun/faqs/2905235-pokemon-usm-trainer.html
