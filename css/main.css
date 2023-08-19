@@ -64,7 +64,7 @@ li div {
     margin-bottom: 10px;
 }
 
-#rbg_chars, #y_chars, #gs_chars, #c_chars, #rs_chars, #frlg_chars, #e_chars, #dp_chars, #hgss_chars, #pt_chars, #bw_chars, #b2w2_chars, #xy_chars, #oras_chars, #sm_chars, #usum_chars, #lgpe_chars, #swsh_chars, #bdsp_chars, #sv_chars {
+#rbg_chars, #y_chars, #gsc_chars, #c_chars, #rs_chars, #frlg_chars, #e_chars, #dp_chars, #hgss_chars, #pt_chars, #bw_chars, #b2w2_chars, #xy_chars, #oras_chars, #sm_chars, #usum_chars, #lgpe_chars, #swsh_chars, #bdsp_chars, #sv_chars {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
