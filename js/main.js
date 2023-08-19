@@ -2,8 +2,7 @@ console.log('Welcome to the world of Pokemon!')
 
 let rbgGame = document.querySelector("#rbg");
 let yGame = document.querySelector("#y");
-let gsGame = document.querySelector("#gs");
-let cGame = document.querySelector("#c");
+let gscGame = document.querySelector("#gsc");
 let rsGame = document.querySelector("#rs");
 let frlgGame = document.querySelector("#frlg");
 let eGame = document.querySelector("#e");
@@ -53,12 +52,8 @@ function openY() {
   toggleAndHide("y_chars");
 }
 
-function openGS() {
-    toggleAndHide("gs_chars");
-}
-
-function openC() {
-    toggleAndHide("c_chars");
+function openGSC() {
+    toggleAndHide("gsc_chars");
 }
 
 function openRS() {
@@ -128,8 +123,7 @@ function openSV() {
 
 rbgGame.addEventListener('click', openRBG);
 yGame.addEventListener('click', openY);
-gsGame.addEventListener('click', openGS);
-cGame.addEventListener('click', openC);
+gscGame.addEventListener('click', openGSC);
 rsGame.addEventListener('click', openRS);
 frlgGame.addEventListener('click', openFRLG);
 eGame.addEventListener('click', openE);
