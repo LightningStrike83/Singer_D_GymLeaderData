@@ -873,6 +873,12 @@ let dp_trainers = [
 ]
 
 function displaydpTrainers() {
+    let newTrainerId = this.id;
+    if (newTrainerId !== currentTrainerId) {
+        currentTrainerId = newTrainerId;
+        showDPImages(newTrainerId);
+        showPokemonDPImages(newTrainerId);
+    }
     let dpTrainer = this.dataset.member;
 
     document.querySelector('#name1').textContent = dp_trainers [dpTrainer].namea;
@@ -971,6 +977,53 @@ function displaydpTrainers() {
     document.querySelector('#move2_6').textContent = dp_trainers [dpTrainer].move2f;
     document.querySelector('#move3_6').textContent = dp_trainers [dpTrainer].move3f;
     document.querySelector('#move4_6').textContent = dp_trainers [dpTrainer].move4f;
+}
+
+function showDPImages(trainerId) {
+    var trainerPicture = document.querySelector("#trainer_image");
+    
+    trainerPicture.innerHTML = "";
+
+    var imgTrainer = document.createElement("img");
+    imgTrainer.src = "images/trainers/dp/" + trainerId + ".png";
+    trainerPicture.appendChild(imgTrainer);
+}
+
+function showPokemonDPImages(trainerId) {
+    var pokemon1Picture = document.querySelector("#pokemon_1_image");
+    var pokemon2Picture = document.querySelector("#pokemon_2_image");
+    var pokemon3Picture = document.querySelector("#pokemon_3_image");
+    var pokemon4Picture = document.querySelector("#pokemon_4_image");
+    var pokemon5Picture = document.querySelector("#pokemon_5_image");
+    var pokemon6Picture = document.querySelector("#pokemon_6_image");
+    var imgPokemon1 = document.createElement("img");
+    var imgPokemon2 = document.createElement("img");
+    var imgPokemon3 = document.createElement("img");
+    var imgPokemon4 = document.createElement("img");
+    var imgPokemon5 = document.createElement("img");
+    var imgPokemon6 = document.createElement("img");
+    
+    pokemon1Picture.innerHTML = "";
+    pokemon2Picture.innerHTML = "";
+    pokemon3Picture.innerHTML = "";
+    pokemon4Picture.innerHTML = "";
+    pokemon5Picture.innerHTML = "";
+    pokemon6Picture.innerHTML = "";
+
+    
+    imgPokemon1.src = "images/pokemon/dp/" + trainerId + "_1.png";
+    imgPokemon2.src = "images/pokemon/dp/" + trainerId + "_2.png";
+    imgPokemon3.src = "images/pokemon/dp/" + trainerId + "_3.png";
+    imgPokemon4.src = "images/pokemon/dp/" + trainerId + "_4.png";
+    imgPokemon5.src = "images/pokemon/dp/" + trainerId + "_5.png";
+    imgPokemon6.src = "images/pokemon/dp/" + trainerId + "_6.png";
+
+    pokemon1Picture.appendChild(imgPokemon1);
+    pokemon2Picture.appendChild(imgPokemon2);
+    pokemon3Picture.appendChild(imgPokemon3);
+    pokemon4Picture.appendChild(imgPokemon4);
+    pokemon5Picture.appendChild(imgPokemon5);
+    pokemon6Picture.appendChild(imgPokemon6);
 }
 
 roarkDP.addEventListener('click', displaydpTrainers);
