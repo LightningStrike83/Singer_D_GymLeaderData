@@ -148,3 +148,23 @@ li div {
     padding-right: 10px;
     padding-bottom: 10px;
 }
+
+#trainer_image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#trainer_image img {
+    height: 200px;
+}
+
+.pokemon_image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pokemon_image img {
+    height: 90px;
+}
