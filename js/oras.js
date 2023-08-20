@@ -850,9 +850,6 @@ function displayORASTrainers() {
         currentTrainerId = newTrainerId;
         showORASImages(newTrainerId);
         showPokemonORASImages(newTrainerId);
-
-        const container = document.getElementById(newTrainerId);
-        toggleCheckbox(container);
     }
 
     let orasTrainer = this.dataset.member;
