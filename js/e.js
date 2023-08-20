@@ -128,7 +128,7 @@ let e_trainers = [
         spda : "Spd: 49",
         move1a : "-Rollout",
         move2a : "-Spark",
-        move3a : "-Selfdestruct",
+        move3a : "-Self-Destruct",
         move4a : "-Thunder Wave",
 
         nameb : "Electrike",
