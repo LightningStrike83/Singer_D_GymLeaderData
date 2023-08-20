@@ -849,9 +849,6 @@ function displayRSTrainers() {
         currentTrainerId = newTrainerId;
         showRSImages(newTrainerId);
         showPokemonRSImages(newTrainerId);
-
-        const container = document.getElementById(newTrainerId);
-        toggleCheckbox(container);
     }
 
     let rsTrainer = this.dataset.member;

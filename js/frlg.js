@@ -1094,9 +1094,6 @@ function displayFRLGTrainers() {
         currentTrainerId = newTrainerId;
         showFRLGImages(newTrainerId);
         showPokemonFRLGImages(newTrainerId);
-
-        const container = document.getElementById(newTrainerId);
-        toggleCheckbox(container);
     }
 
 

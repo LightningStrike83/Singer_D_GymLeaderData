@@ -878,9 +878,6 @@ function displayBDSPTrainers() {
         currentTrainerId = newTrainerId;
         showBDSPImages(newTrainerId);
         showPokemonBDSPImages(newTrainerId);
-
-        const container = document.getElementById(newTrainerId);
-        toggleCheckbox(container);
     }
 
     let bdspTrainer = this.dataset.member;

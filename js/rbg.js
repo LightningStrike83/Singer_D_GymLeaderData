@@ -967,8 +967,6 @@ function displayRBGTrainers() {
         updateSpd6Content();
         showRBGImages(newTrainerId);
         showPokemonRBGImages(newTrainerId);
-        
-        const container = document.getElementById(newTrainerId);
     }
 
 
