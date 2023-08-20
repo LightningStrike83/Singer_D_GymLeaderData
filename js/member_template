@@ -194,3 +194,25 @@ Modern:
         move2f : "-",
         move3f : "-",
         move4f : "-",
+
+
+        function toggleGameCheckbox(checkbox) {
+                const container = checkbox.closest('.game');
+                if (!container) return;
+              
+                if (checkbox.checked) {
+                  checkbox.checked = false;
+                  gameContainer = null;
+                } else {
+                  const lastCheckbox = container.querySelector('.game_checkbox:checked');
+                  if (lastCheckbox) {
+                    lastCheckbox.checked = false;
+                  }
+                  checkbox.checked = true;
+                  gameContainer = container;
+                }
+              }
+
+  toggleGameCheckbox(this.querySelector('.game_checkbox'));
+
+  let gameContainer = null

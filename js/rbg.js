@@ -14,8 +14,6 @@ let bluegRBG = document.querySelector ("#blue1_g");
 let bluefRBG = document.querySelector ("#blue1_f");
 let bluewRBG = document.querySelector ("#blue1_w");
 
-let currentTrainerId = null
-
 let rbg_trainers = [
     {
         namea : "Geodude",
@@ -969,6 +967,8 @@ function displayRBGTrainers() {
         updateSpd6Content();
         showRBGImages(newTrainerId);
         showPokemonRBGImages(newTrainerId);
+        
+        const container = document.getElementById(newTrainerId);
     }
 
 
