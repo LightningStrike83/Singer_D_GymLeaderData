@@ -762,7 +762,7 @@ let frlg_trainers = [
         leveld : "LV: 58",
         typed : "Type: Rock/Flying",
         abilityd: "Ability: Rock Head",
-        itemd : "Item: ",
+        itemd : "Item: None",
         hpd : "HP: 178",
         atkd : "Atk: 129",
         defd : "Def: 106",

@@ -18,6 +18,8 @@ ORAS data from: bulbapedia
 
 US/UM data from: Eevee-Trainer https://www.neoseeker.com/pokemon-ultra-sun/faqs/2905235-pokemon-usm-trainer.html
 
+LGPE data from: eddaket https://docs.google.com/spreadsheets/d/1zlvzKZAF6m7V3xSsf1md4HGge9CzlnJypIacnQ4fKqs/edit#gid=1454927861 
+
 Sw/Sh data from: doipy hooves on Smogon https://pastebin.com/EUw7mEtR 
 
 BDSP data from: Hematite/HemaH2O and Kaphotics https://heystacks.com/doc/1042/bdsp-trainer-data 
