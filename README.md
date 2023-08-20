@@ -24,3 +24,6 @@ BDSP data from: Hematite/HemaH2O and Kaphotics https://heystacks.com/doc/1042/bd
 
 S/V data from: Hematite/HemaH2O https://docs.google.com/spreadsheets/d/16XSoEjfAyWhvqUV8t2TZR_RD8Qceb4RVYbR5njS8aHk/htmlview
 
+XY/ORAS/SM/USUM/LGPE/SWSH/BDSP/SV Pokemon images from: serebii
+
+RBG/Y/GSC/RS/FRLG/E/DP/PT/HGSS/BW/B2W2 Pokemon images from: bulbapedia
