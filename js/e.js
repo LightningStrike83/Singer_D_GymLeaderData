@@ -1073,6 +1073,9 @@ function displayETrainers() {
         currentTrainerId = newTrainerId;
         showEImages(newTrainerId);
         showPokemonEImages(newTrainerId);
+
+        const container = document.getElementById(newTrainerId);
+        toggleCheckbox(container);
     }
 
     let eTrainer = this.dataset.member;

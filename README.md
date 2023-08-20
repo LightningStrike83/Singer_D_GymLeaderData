@@ -4,7 +4,7 @@ Data for Red/Blue/Green/Yellow from: zerokid https://gamefaqs.gamespot.com/gameb
 
 Data for Ruby/Sapphire/LeafGreen/FireRed/Emerald from: roushmore https://docs.google.com/spreadsheets/d/1frqW2CeHop4o0NP6Ja_TAAPPkGIrvxkeQJBfyxFggyk/edit#gid=1064630895 
 
-Emerald ability and item data from: bulbapedia
+RS, FRLG, E ability and item data from: bulbapedia
 
 DP data from: werster https://www.dropbox.com/s/utieptnrxl64ka3/Pearl%20Trainer%20data.xlsx 
 

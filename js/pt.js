@@ -881,6 +881,9 @@ function displayPTTrainers() {
         currentTrainerId = newTrainerId;
         showPTImages(newTrainerId);
         showPokemonPTImages(newTrainerId);
+
+        const container = document.getElementById(newTrainerId);
+        toggleCheckbox(container);
     }
 
     let ptTrainer = this.dataset.member;

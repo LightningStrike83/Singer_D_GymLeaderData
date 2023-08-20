@@ -20,13 +20,19 @@ let swshGame = document.querySelector("#swsh");
 let bdspGame = document.querySelector("#bdsp");
 let svGame = document.querySelector("#sv");
 
+const characterDivs = document.querySelectorAll('.character_name');
+const gameDivs = document.querySelectorAll('.game')
+
+let currentTrainerId = null
+let lastCheckedContainer = null
+
 function toggleDisplay(element) {
-  if (element.style.display === "none") {
+    if (!element.style.display || element.style.display === "none") {
       element.style.display = "flex";
-  } else {
+    } else {
       element.style.display = "none";
+    }
   }
-}
 
 function hideOtherCharacters(activeChars, otherCharsArray) {
   if (activeChars.style.display === "flex") {
@@ -120,6 +126,26 @@ function openSV() {
     toggleAndHide("sv_chars");
 }
 
+function toggleCheckbox(checkbox) {
+  checkbox.checked = !checkbox.checked;
+}
+
+function uncheckAllCheckboxes() {
+  characterDivs.forEach(div => {
+    const checkbox = div.querySelector('.custom_checkbox');
+    checkbox.checked = false;
+  });
+}
+
+function uncheckAllGameCheckboxes() {
+    gameDivs.forEach(div => { // Use gameDivs instead of characterDivs
+        const checkbox = div.querySelector('.game_checkbox');
+        if (checkbox) {
+            checkbox.checked = false;
+        }
+    });
+}
+
 
 rbgGame.addEventListener('click', openRBG);
 yGame.addEventListener('click', openY);
@@ -140,3 +166,19 @@ lgpeGame.addEventListener('click', openLGPE);
 swshGame.addEventListener('click', openSWSH);
 bdspGame.addEventListener('click', openBDSP);
 svGame.addEventListener('click', openSV);
+
+characterDivs.forEach(div => {
+    div.addEventListener('click', function() {
+      const checkbox = this.querySelector('.custom_checkbox');
+      uncheckAllCheckboxes();
+      toggleCheckbox(checkbox);
+    });
+  });
+
+  gameDivs.forEach(div => {
+    div.addEventListener('click', function() {
+        const checkbox = this.querySelector('.game_checkbox');
+        uncheckAllGameCheckboxes();
+      toggleCheckbox(checkbox);
+    });
+  });

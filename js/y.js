@@ -910,6 +910,9 @@ function displayYTrainers() {
         updateSpd6Content();
         showYImages(newTrainerId);
         showPokemonYImages(newTrainerId);
+
+        const container = document.getElementById(newTrainerId);
+        toggleCheckbox(container);
     }
     
     let yTrainer = this.dataset.member;
