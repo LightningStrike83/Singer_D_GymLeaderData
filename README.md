@@ -14,11 +14,13 @@ PT stats calculated from: MoneyHypeMike and majorkatsuragi's data https://www.dr
 
 PT move data from: bulbapedia
 
+XY data from: wartab https://www.speedrun.com/pkmnxy/guides/2afgl
+
 ORAS data from: bulbapedia
 
 SM data calculated from: SCIRESM's data https://pastebin.com/vkaZNTra  
 
-US/UM data from: SCIRESM's data https://pastebin.com/9WdFYnLi  
+US/UM data calculated from: SCIRESM's data https://pastebin.com/9WdFYnLi  
 
 US/UM ability, item, and move data from: bulbapedia
 

@@ -1,0 +1,13 @@
+let SWSH = document.querySelector ("#viola1");
+let SWSH = document.querySelector ("#grant1");
+let SWSH = document.querySelector ("#korrina1");
+let SWSH = document.querySelector ("#ramos1");
+let SWSH = document.querySelector ("#clemont1");
+let SWSH = document.querySelector ("#valerie1");
+let SWSH = document.querySelector ("#olympia1");
+let SWSH = document.querySelector ("#wulfric1");
+let SWSH = document.querySelector ("#malva1");
+let SWSH = document.querySelector ("#wikstrom1");
+let SWSH = document.querySelector ("#drasna1");
+let SWSH = document.querySelector ("#siebold1");
+let SWSH = document.querySelector ("#diantha1");
