@@ -10,13 +10,17 @@ DP data from: werster https://www.dropbox.com/s/utieptnrxl64ka3/Pearl%20Trainer%
 
 DP ability, item, and move data from: bulbapedia
 
-PT stats calculated from: MoneyHypeMike and majorkatsuragi https://www.dropbox.com/sh/9tfr2gxm9tabxjk/AAA-K8XULd16TQf_uLfSQaFda?preview=Pok%C3%A9mon+Platinum+-+Script+File+(Piplup).xlsx and https://calc.pokemonshowdown.com/
+PT stats calculated from: MoneyHypeMike and majorkatsuragi's data https://www.dropbox.com/sh/9tfr2gxm9tabxjk/AAA-K8XULd16TQf_uLfSQaFda?preview=Pok%C3%A9mon+Platinum+-+Script+File+(Piplup).xlsx and https://calc.pokemonshowdown.com/
 
 PT move data from: bulbapedia
 
 ORAS data from: bulbapedia
 
-US/UM data from: Eevee-Trainer https://www.neoseeker.com/pokemon-ultra-sun/faqs/2905235-pokemon-usm-trainer.html
+SM data calculated from: SCIRESM's data https://pastebin.com/vkaZNTra  
+
+US/UM data from: SCIRESM's data https://pastebin.com/9WdFYnLi  
+
+US/UM ability, item, and move data from: bulbapedia
 
 LGPE data from: eddaket https://docs.google.com/spreadsheets/d/1zlvzKZAF6m7V3xSsf1md4HGge9CzlnJypIacnQ4fKqs/edit#gid=1454927861 
 
@@ -29,3 +33,5 @@ S/V data from: Hematite/HemaH2O https://docs.google.com/spreadsheets/d/16XSoEjfA
 XY/ORAS/SM/USUM/LGPE/SWSH/BDSP/SV Pokemon images from: serebii
 
 RBG/Y/GSC/RS/FRLG/E/DP/PT/HGSS/BW/B2W2 Pokemon images from: bulbapedia
+
+Trainer Images from: bulbapedia
