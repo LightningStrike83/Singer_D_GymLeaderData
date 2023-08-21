@@ -826,7 +826,7 @@ let oras_trainers = [
         move3e : "-Metal Claw",
         move4e : "-Crush Claw",
 
-        namef : "Metagross",
+        namef : "Mega Metagross",
         levelf : "LV: 59",
         typef : "Type: Steel/Psychic",
         abilityf: "Ability: Clear Body",
