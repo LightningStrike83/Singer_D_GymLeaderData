@@ -36,8 +36,8 @@ let hgss_trainers = [
         spda : "Spd: 15",
         move1a : "-Tackle",
         move2a : "-Sand Attack",
-        move3a : "-",
-        move4a : "-",
+        move3a : "",
+        move4a : "",
 
         nameb : "Pidgeotto",
         levelb : "LV: 13",
@@ -53,7 +53,7 @@ let hgss_trainers = [
         move1b : "-Tackle",
         move2b : "-Roost",
         move3b : "-Gust",
-        move4b : "-",
+        move4b : "",
     },
 
     {
