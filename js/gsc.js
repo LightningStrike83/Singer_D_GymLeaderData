@@ -21,6 +21,42 @@ let blaineGSC = document.querySelector ("#blaine3");
 let blueGSC = document.querySelector ("#blue3");
 let redGSC = document.querySelector ("#red1");
 
+let gsc_trainers = [
+    {
+        namea : "Pidgey",
+        levela : "LV: 7",
+        typea : "Type: Normal/Flying",
+        abilitya: "",
+        itema : "Item: None",
+        hpa : "HP: ",
+        atka : "Atk: ",
+        defa : "Def: ",
+        spatka : "Sp. Atk: ",
+        spdefa : "Sp. Def: ",
+        spda : "Spd: ",
+        move1a : "-Tackle",
+        move2a : "-Mud-Slap",
+        move3a : "",
+        move4a : "",
+
+        nameb : "Pidgeotto",
+        levelb : "LV: 9",
+        typeb : "Type: Normal/Flying",
+        abilityb: "",
+        itemb : "Item: None",
+        hpb : "HP: ",
+        atkb : "Atk: ",
+        defb : "Def: ",
+        spatkb : "Sp. Atk: ",
+        spdefb : "Sp. Def: ",
+        spdb : "Spd: ",
+        move1b : "-Tackle",
+        move2b : "-Mud-Slap",
+        move3b : "-Gust",
+        move4b : "",
+    },
+]
+
 function displayGSCTrainers() {
 
     let newTrainerId = this.id;

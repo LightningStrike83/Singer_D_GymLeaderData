@@ -21,6 +21,42 @@ let blaineHGSS = document.querySelector ("#blaine5");
 let blueHGSS = document.querySelector ("#blue5");
 let redHGSS = document.querySelector ("#red2");
 
+let hgss_trainers = [
+    {
+        namea : "Pidgey",
+        levela : "LV: 9",
+        typea : "Type: Normal/Flying",
+        abilitya: "Ability: Keen Eye",
+        itema : "Item: None",
+        hpa : "HP: ",
+        atka : "Atk: ",
+        defa : "Def: ",
+        spatka : "Sp. Atk: ",
+        spdefa : "Sp. Def: ",
+        spda : "Spd: ",
+        move1a : "-Tackle",
+        move2a : "-Sand Attack",
+        move3a : "-",
+        move4a : "-",
+
+        nameb : "Pidgeotto",
+        levelb : "LV: 13",
+        typeb : "Type: Normal/Flying",
+        abilityb: "Ability: Keen Eye",
+        itemb : "Item: None",
+        hpb : "HP: ",
+        atkb : "Atk: ",
+        defb : "Def: ",
+        spatkb : "Sp. Atk: ",
+        spdefb : "Sp. Def: ",
+        spdb : "Spd: ",
+        move1b : "-Tackle",
+        move2b : "-Roost",
+        move3b : "-Gust",
+        move4b : "-",
+    },
+]
+
 function displayHGSSTrainers() {
 
     let newTrainerId = this.id;
