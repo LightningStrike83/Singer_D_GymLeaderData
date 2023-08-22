@@ -18,7 +18,9 @@ PT move data from: bulbapedia
 
 HGSS data from: JTMagicMan https://www.speedrun.com/pkmnhgss/guides/k2zij 
 
-BW data from: https://www.dropbox.com/s/vfy5xok1knq069a/Pokemon%20Black%20-%20Game%20Information%20(Tepig).xlsx?dl=0 
+BW data from: Human https://drive.google.com/file/d/1l7SBH1yeJvEYxml5DpARCNuC5yDf_7cu/view 
+
+Cress data from: https://www.dropbox.com/s/vfy5xok1knq069a/Pokemon%20Black%20-%20Game%20Information%20(Tepig).xlsx?dl=0 
 
 XY data from: wartab https://www.speedrun.com/pkmnxy/guides/2afgl
 
