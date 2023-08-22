@@ -149,7 +149,7 @@ let lgpe_trainers = [
         move3a : "-Sleep Powder",
         move4a : "",
 
-        nameb : "Weepinbel",
+        nameb : "Weepinbell",
         levelb : "LV: 33",
         typeb : "Type: Grass/Poison",
         abilityb: "",
