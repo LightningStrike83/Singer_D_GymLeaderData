@@ -462,7 +462,7 @@ let y_trainers = [
         spdc : "Speed: 109",
         move1c : "-Double Kick",
         move2c : "-Mega Kick",
-        move3c : "-Hi Jump Kick",
+        move3c : "-High Jump Kick",
         move4c : "-Double Team",
 
         named : "Onix",

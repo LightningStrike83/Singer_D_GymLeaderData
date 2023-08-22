@@ -14,6 +14,8 @@ PT stats calculated from: MoneyHypeMike and majorkatsuragi's data https://www.dr
 
 PT move data from: bulbapedia
 
+BW data from: https://www.dropbox.com/s/vfy5xok1knq069a/Pokemon%20Black%20-%20Game%20Information%20(Tepig).xlsx?dl=0 
+
 XY data from: wartab https://www.speedrun.com/pkmnxy/guides/2afgl
 
 ORAS data from: bulbapedia
