@@ -148,7 +148,7 @@ let xy_trainers = [
         move3a : "-Leech Seed",
         move4a : "",
 
-        nameb : "Weepinbel",
+        nameb : "Weepinbell",
         levelb : "LV: 31",
         typeb : "Type: Grass/Poison",
         abilityb: "Ability: Chlorophyll",
