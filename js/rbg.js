@@ -518,7 +518,7 @@ let rbg_trainers = [
         spdc : "Speed: 109",
         move1c : "-Jump Kick",
         move2c : "-Focus Energy",
-        move3c : "-Hi Jump Kick",
+        move3c : "-High Jump Kick",
         move4c : "-Mega Kick",
 
         named : "Onix",

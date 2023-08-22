@@ -625,7 +625,7 @@ let sv_trainers = [
 
         named : "Corviknight",
         leveld : "LV: 58",
-        typed : "Type: Steel/Flying",
+        typed : "Type: Flying/Steel",
         abilityd: "Ability: Pressure",
         itemd : "Item: None",
         hpd : "HP: ",

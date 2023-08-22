@@ -670,7 +670,7 @@ let bdsp_trainers = [
         spdefd : "Sp. Def: U/A",
         spdd : "Spd: U/A",
         move1d : "-Mirror Coat",
-        move2d : "-Hi Jump Kick",
+        move2d : "-High Jump Kick",
         move3d : "-Quick Attack",
         move4d : "-Fire Punch",
 
@@ -736,7 +736,7 @@ let bdsp_trainers = [
         spdefc : "Sp. Def: U/A",
         spdc : "Spd: U/A",
         move1c : "-Zen Headbutt",
-        move2c : "-Hi Jump Kick",
+        move2c : "-High Jump Kick",
         move3c : "-Thunder Punch",
         move4c : "-Ice Punch",
 
