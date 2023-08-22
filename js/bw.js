@@ -753,7 +753,7 @@ let bw_trainers = [
         move4c : "-Shadow Ball",
 
         named : "Gothitelle",
-        leveld : "LV: ",
+        leveld : "LV: 50",
         typed : "Type: Psychic",
         abilityd: "Ability: Frisk",
         itemd : "Item: None",

@@ -175,7 +175,7 @@ let swsh_trainers = [
 
         nameb : "Pangoro",
         levelb : "LV: 34",
-        typeb : "Type: ",
+        typeb : "Type: Fighting/Dark",
         abilityb: "Ability: Mold Breaker",
         itemb : "Item: None",
         hpb : "HP: ",
@@ -1032,7 +1032,7 @@ let swsh_trainers = [
         nameb : "Pelipper",
         levelb : "LV: 51",
         typeb : "Type: Water/Flying",
-        abilityb: "Ability: ",
+        abilityb: "Ability: Drizzle",
         itemb : "Item: None",
         hpb : "HP: ",
         atkb : "Atk: ",
@@ -1145,7 +1145,7 @@ let swsh_trainers = [
 
         named : "Falinks",
         leveld : "LV: 53",
-        typed : "Type: ",
+        typed : "Type: Fighting",
         abilityd: "Ability: Battle Armor",
         itemd : "Item: None",
         hpd : "HP: ",
