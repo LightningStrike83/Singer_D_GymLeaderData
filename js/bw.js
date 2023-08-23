@@ -16,7 +16,7 @@ let caitlinBW = document.querySelector ("#caitlin1");
 let nBBW = document.querySelector ("#n1_b");
 let nWBW = document.querySelector ("#n1_w");
 let ghetsisBW = document.querySelector ("#ghetsis1");
-let cynthiaBW = document.querySelector ("#cynthia3");
+
 
 let bw_trainers = [
     {
@@ -1062,104 +1062,6 @@ let bw_trainers = [
         move3f : "-Surf",
         move4f : "-Focus Blast",
     },
-
-    {
-        namea : "Spiritomb",
-        levela : "LV: 75",
-        typea : "Type: Ghost/Dark",
-        abilitya: "Ability: Pressure",
-        itema : "Item: None",
-        hpa : "HP: U/A",
-        atka : "Atk: U/A",
-        defa : "Def: U/A",
-        spatka : "Sp. Atk: U/A",
-        spdefa : "Sp. Def: U/A",
-        spda : "Spd: U/A",
-        move1a : "-Sucker Punch",
-        move2a : "-Will-O-Wisp",
-        move3a : "-Double Team",
-        move4a : "-Shadow Ball",
-
-        nameb : "Eelektross",
-        levelb : "LV: 75",
-        typeb : "Type: Electric",
-        abilityb: "Ability: Levitate",
-        itemb : "Item: None",
-        hpb : "HP: U/A",
-        atkb : "Atk: U/A",
-        defb : "Def: U/A",
-        spatkb : "Sp. Atk: U/A",
-        spdefb : "Sp. Def: U/A",
-        spdb : "Spd: U/A",
-        move1b : "-Crunch",
-        move2b : "-Wild Charge",
-        move3b : "-Dragon Claw",
-        move4b : "-Flamethrower",
-
-        namec : "Milotic",
-        levelc : "LV: 75",
-        typec : "Type: Water",
-        abilityc: "Ability: Marvel Scale",
-        itemc : "Item: None",
-        hpc : "HP: U/A",
-        atkc : "Atk: U/A",
-        defc : "Def: U/A",
-        spatkc : "Sp. Atk: U/A",
-        spdefc : "Sp. Def: U/A",
-        spdc : "Spd: U/A",
-        move1c : "-Bulldoze",
-        move2c : "-Dragon Tail",
-        move3c : "-Blizzard",
-        move4c : "-Hydro Pump",
-
-        named : "Braviary",
-        leveld : "LV: 75",
-        typed : "Type: Normal/Flying",
-        abilityd: "Ability: Sheer Force",
-        itemd : "Item: None",
-        hpd : "HP: U/A",
-        atkd : "Atk: U/A",
-        defd : "Def: U/A",
-        spatkd : "Sp. Atk: U/A",
-        spdefd : "Sp. Def: U/A",
-        spdd : "Spd: U/A",
-        move1d : "-Brave Bird",
-        move2d : "-Crush Claw",
-        move3d : "-Shadow Claw",
-        move4d : "-Retaliate",
-
-        namee : "Lucario",
-        levele : "LV: 75",
-        typee : "Type: Fightning/Steel",
-        abilitye: "Ability: Steadfast",
-        iteme : "Item: None",
-        hpe : "HP: U/A",
-        atke : "Atk: U/A",
-        defe : "Def: U/A",
-        spatke : "Sp. Atk: U/A",
-        spdefe : "Sp. Def: U/A",
-        spde : "Spd: U/A",
-        move1e : "-Dragon Pulse",
-        move2e : "-Aura Sphere",
-        move3e : "-Extreme Speed",
-        move4e : "-Close Combat",
-
-        namef : "Garchomp",
-        levelf : "LV: 77",
-        typef : "Type: Dragon/Ground",
-        abilityf: "Ability: Sand Veil",
-        itemf : "Item: None",
-        hpf : "HP: U/A",
-        atkf : "Atk: U/A",
-        deff : "Def: U/A",
-        spatkf : "Sp. Atk: U/A",
-        spdeff : "Sp. Def: U/A",
-        spdf : "Spd: U/A",
-        move1f : "-Crunch",
-        move2f : "-Dragon Rush",
-        move3f : "-Earthquake",
-        move4f : "-Stone Edge",
-    }
 ]
 
 function displayBWTrainers() {
@@ -1337,4 +1239,3 @@ caitlinBW.addEventListener('click', displayBWTrainers);
 nBBW.addEventListener('click', displayBWTrainers);
 nWBW.addEventListener('click', displayBWTrainers);
 ghetsisBW.addEventListener('click', displayBWTrainers);
-cynthiaBW.addEventListener('click', displayBWTrainers);

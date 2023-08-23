@@ -6,6 +6,7 @@ let normanORAS = document.querySelector ("#norman3");
 let winonaORAS = document.querySelector ("#winona3");
 let tatelizaORAS = document.querySelector ("#tateliza3");
 let wallaceORAS = document.querySelector ("#wallace3");
+let wallyORAS = document.querySelector ("#wally3");
 let sidneyORAS = document.querySelector ("#sidney3");
 let phoebeORAS = document.querySelector ("#phoebe3");
 let glaciaORAS = document.querySelector ("#glacia3");
@@ -413,6 +414,88 @@ let oras_trainers = [
         move3e : "-Recover",
         move4e : "-Ice Beam",
 
+    },
+
+    {
+        namea : "Altaria",
+        levela : "LV: 46",
+        typea : "Type: Dragon/Flying",
+        abilitya: "Ability: Natural Cure",
+        itema : "Item: None",
+        hpa : "HP: U/A",
+        atka : "Atk: U/A",
+        defa : "Def: U/A",
+        spatka : "Sp. Atk: U/A",
+        spdefa : "Sp. Def: U/A",
+        spda : "Spd: U/A",
+        move1a : "-Aerial Ace",
+        move2a : "-Safeguard",
+        move3a : "-Dragon Pulse",
+        move4a : "-Cotton Guard",
+
+        nameb : "Delcatty",
+        levelb : "LV: 46",
+        typeb : "Type: Normal",
+        abilityb: "Ability: Cute Charm",
+        itemb : "Item: None",
+        hpb : "HP: U/A",
+        atkb : "Atk: U/A",
+        defb : "Def: U/A",
+        spatkb : "Sp. Atk: U/A",
+        spdefb : "Sp. Def: U/A",
+        spdb : "Spd: U/A",
+        move1b : "-Sing",
+        move2b : "-Disarming Voice",
+        move3b : "-Charm",
+        move4b : "-Feint Attack",
+
+        namec : "Roselia",
+        levelc : "LV: 46",
+        typec : "Type: Grass/Poison",
+        abilityc: "Ability: Poison Point",
+        itemc : "Item: None",
+        hpc : "HP: U/A",
+        atkc : "Atk: U/A",
+        defc : "Def: U/A",
+        spatkc : "Sp. Atk: U/A",
+        spdefc : "Sp. Def: U/A",
+        spdc : "Spd: U/A",
+        move1c : "-Synthesis",
+        move2c : "-Leech Seed",
+        move3c : "-Petal Blizzard",
+        move4c : "-Toxic",
+
+        named : "Magneton",
+        leveld : "LV: 46",
+        typed : "Type: Electric/Steel",
+        abilityd: "Ability: Sturdy",
+        itemd : "Item: None",
+        hpd : "HP: U/A",
+        atkd : "Atk: U/A",
+        defd : "Def: U/A",
+        spatkd : "Sp. Atk: U/A",
+        spdefd : "Sp. Def: U/A",
+        spdd : "Spd: U/A",
+        move1d : "-Screech",
+        move2d : "-Discharge",
+        move3d : "-Tri Attack",
+        move4d : "-Flash Cannon",
+
+        namee : "Mega Gallade",
+        levele : "LV: 48",
+        typee : "Type: Psychic/Fighting",
+        abilitye: "Ability: Inner Focus",
+        iteme : "Item: Galladite",
+        hpe : "HP: U/A",
+        atke : "Atk: U/A",
+        defe : "Def: ",
+        spatke : "Sp. Atk: U/A",
+        spdefe : "Sp. Def: U/A",
+        spde : "Spd: U/A",
+        move1e : "-Psycho Cut",
+        move2e : "-Close Combat",
+        move3e : "-Slash",
+        move4e : "-Swords Dance",
     },
 
     {
@@ -829,7 +912,7 @@ let oras_trainers = [
         namef : "Mega Metagross",
         levelf : "LV: 59",
         typef : "Type: Steel/Psychic",
-        abilityf: "Ability: Clear Body",
+        abilityf: "Ability: Tough Claws",
         itemf : "Item: Metagrossite",
         hpf : "HP: U/A",
         atkf : "Atk: U/A",
@@ -1007,6 +1090,7 @@ normanORAS.addEventListener('click', displayORASTrainers);
 winonaORAS.addEventListener('click', displayORASTrainers);
 tatelizaORAS.addEventListener('click', displayORASTrainers);
 wallaceORAS.addEventListener('click', displayORASTrainers);
+wallyORAS.addEventListener('click', displayORASTrainers);
 sidneyORAS.addEventListener('click', displayORASTrainers);
 phoebeORAS.addEventListener('click', displayORASTrainers);
 glaciaORAS.addEventListener('click', displayORASTrainers);

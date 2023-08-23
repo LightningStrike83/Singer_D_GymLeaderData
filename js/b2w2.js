@@ -6,12 +6,12 @@ let clayB2W2 = document.querySelector ("#clay2");
 let skylaB2W2 = document.querySelector ("#skyla2");
 let draydenB2W2 = document.querySelector ("#drayden2");
 let marlonB2W2 = document.querySelector ("#marlon1");
+let ghetsisB2W2 = document.querySelector ("#ghetsis2");
 let shauntalB2W2 = document.querySelector ("#shauntal2");
 let marshalB2W2 = document.querySelector ("#marshal2");
 let grimsleyB2W2 = document.querySelector ("#grimsley2");
 let caitlinB2W2 = document.querySelector ("#caitlin2");
 let irisB2W2 = document.querySelector ("#iris2");
-let cynthiaB2W2 = document.querySelector ("#cynthia4");
 
 let b2w2_trainers = [
     {
@@ -384,6 +384,104 @@ let b2w2_trainers = [
 
     {
         namea : "Cofagrigus",
+        levela : "LV: 50",
+        typea : "Type: Ghost",
+        abilitya: "Ability: Mummy",
+        itema : "Item: Leftovers",
+        hpa : "HP: 130",
+        atka : "Atk: 67",
+        defa : "Def: 145",
+        spatka : "Sp. Atk: 112",
+        spdefa : "Sp. Def: 134",
+        spda : "Spd: 47",
+        move1a : "-Shadow Ball",
+        move2a : "-Protect",
+        move3a : "-Psychic",
+        move4a : "-Toxic",
+
+        nameb : "Seismitoad",
+        levelb : "LV: 50",
+        typeb : "Type: Water/Ground",
+        abilityb: "Ability: Poison Touch",
+        itemb : "Item: None",
+        hpb : "HP: 177",
+        atkb : "Atk: 112",
+        defb : "Def: 82",
+        spatkb : "Sp. Atk: 102",
+        spdefb : "Sp. Def: 92",
+        spdb : "Spd: 91",
+        move1b : "-Muddy Water",
+        move2b : "-Earthquake",
+        move3b : "-Drain Punch",
+        move4b : "-Sludge Wave",
+
+        namec : "Eelektross",
+        levelc : "LV: 50",
+        typec : "Type: Electric",
+        abilityc: "Ability: Levitate",
+        itemc : "Item: None",
+        hpc : "HP: 157",
+        atkc : "Atk: 132",
+        defc : "Def: 97",
+        spatkc : "Sp. Atk: 109",
+        spdefc : "Sp. Def: 97",
+        spdc : "Spd: 73",
+        move1c : "-Thunderbolt",
+        move2c : "-Flamethrower",
+        move3c : "-Acrobatics",
+        move4c : "-Crunch",
+
+        named : "Drapion",
+        leveld : "LV: 50",
+        typed : "Type: Poison/Dark",
+        abilityd: "Ability: Sniper",
+        itemd : "Item: None",
+        hpd : "HP: 145",
+        atkd : "Atk: 110",
+        defd : "Def: 117",
+        spatkd : "Sp. Atk: 88",
+        spdefd : "Sp. Def: 95",
+        spdd : "Spd: 115",
+        move1d : "-Night Slash",
+        move2d : "-Earthquake",
+        move3d : "-Poison Fang",
+        move4d : "-X-Scissor",
+
+        namee : "Toxicroak",
+        levele : "LV: 50",
+        typee : "Type: Poison/Fighting",
+        abilitye: "Ability: Anticipation",
+        iteme : "Item: None",
+        hpe : "HP: 158",
+        atke : "Atk: 126",
+        defe : "Def: 85",
+        spatke : "Sp. Atk: 106",
+        spdefe : "Sp. Def: 93",
+        spde : "Spd: 94",
+        move1e : "-Brick Break",
+        move2e : "-Shadow Ball",
+        move3e : "-Sucker Punch",
+        move4e : "-Poison Jab",
+
+        namef : "Hydreigon",
+        levelf : "LV: 52",
+        typef : "Type: Dark/Dragon",
+        abilityf: "Ability: Levitate",
+        itemf : "Item: Life Orb",
+        hpf : "HP: 173",
+        atkf : "Atk: 141",
+        deff : "Def: 102",
+        spatkf : "Sp. Atk: 150",
+        spdeff : "Sp. Def: 114",
+        spdf : "Spd: 122",
+        move1f : "-Dragon Rush",
+        move2f : "-Crunch",
+        move3f : "-Rock Slide",
+        move4f : "-Frustration",
+    },
+
+    {
+        namea : "Cofagrigus",
         levela : "LV: 56",
         typea : "Type: Ghost",
         abilitya: "Ability: Mummy",
@@ -744,103 +842,7 @@ let b2w2_trainers = [
         move4f : "-Dragon Dance",
     },
 
-    {
-        namea : "Spiritomb",
-        levela : "LV: 76",
-        typea : "Type: Ghost/Dark",
-        abilitya: "Ability: Pressure",
-        itema : "Item: None",
-        hpa : "HP: U/A",
-        atka : "Atk: U/A",
-        defa : "Def: U/A",
-        spatka : "Sp. Atk: U/A",
-        spdefa : "Sp. Def: U/A",
-        spda : "Spd: U/A",
-        move1a : "-Hypnosis",
-        move2a : "-Dream Eater",
-        move3a : "-Double Team",
-        move4a : "-Shadow Ball",
-
-        nameb : "Milotic",
-        levelb : "LV: 76",
-        typeb : "Type: Water",
-        abilityb: "Ability: Marvel Scale",
-        itemb : "Item: None",
-        hpb : "HP: U/A",
-        atkb : "Atk: U/A",
-        defb : "Def: U/A",
-        spatkb : "Sp. Atk: U/A",
-        spdefb : "Sp. Def: U/A",
-        spdb : "Spd: U/A",
-        move1b : "-Attract",
-        move2b : "-Rest",
-        move3b : "-Blizzard",
-        move4b : "-Hydro Pump",
-
-        namec : "Togekiss",
-        levelc : "LV: 76",
-        typec : "Type: Normal/Flying",
-        abilityc: "Ability: Serene Grace",
-        itemc : "Item: None",
-        hpc : "HP: U/A",
-        atkc : "Atk: U/A",
-        defc : "Def: U/A",
-        spatkc : "Sp. Atk: U/A",
-        spdefc : "Sp. Def: U/A",
-        spdc : "Spd: U/A",
-        move1c : "-Air Slash",
-        move2c : "-Aura Sphere",
-        move3c : "-Extreme Speed",
-        move4c : "-Thunder Wave",
-
-        named : "Lucario",
-        leveld : "LV: 76",
-        typed : "Type: Fightning/Steel",
-        abilityd: "Ability: Inner Focus",
-        itemd : "Item: None",
-        hpd : "HP: U/A",
-        atkd : "Atk: U/A",
-        defd : "Def: U/A",
-        spatkd : "Sp. Atk: U/A",
-        spdefd : "Sp. Def: U/A",
-        spdd : "Spd: U/A",
-        move1d : "-Flash Cannon",
-        move2d : "-Psychic",
-        move3d : "-Extreme Speed",
-        move4d : "-Close Combat",
-
-        namee : "Glaceon",
-        levele : "LV: 76",
-        typee : "Type: Ice",
-        abilitye: "Ability: Snow Cloak",
-        iteme : "Item: None",
-        hpe : "HP: U/A",
-        atke : "Atk: U/A",
-        defe : "Def: U/A",
-        spatke : "Sp. Atk: U/A",
-        spdefe : "Sp. Def: U/A",
-        spde : "Spd: U/A",
-        move1e : "-Ice Beam",
-        move2e : "-Shadow Ball",
-        move3e : "-Signal Beam",
-        move4e : "-Barrier",
-
-        namef : "Garchomp",
-        levelf : "LV: 78",
-        typef : "Type: Dragon/Ground",
-        abilityf: "Ability: Sand Veil",
-        itemf : "Item: None",
-        hpf : "HP: U/A",
-        atkf : "Atk: U/A",
-        deff : "Def: U/A",
-        spatkf : "Sp. Atk: U/A",
-        spdeff : "Sp. Def: U/A",
-        spdf : "Spd: U/A",
-        move1f : "-Fire Blast",
-        move2f : "-Dragon Rush",
-        move3f : "-Earthquake",
-        move4f : "-Stone Edge",
-    }
+    
 ]
 
 function displayB2W2Trainers() {
@@ -1008,9 +1010,9 @@ clayB2W2.addEventListener('click', displayB2W2Trainers);
 skylaB2W2.addEventListener('click', displayB2W2Trainers);
 draydenB2W2.addEventListener('click', displayB2W2Trainers);
 marlonB2W2.addEventListener('click', displayB2W2Trainers);
+ghetsisB2W2.addEventListener('click', displayB2W2Trainers);
 shauntalB2W2.addEventListener('click', displayB2W2Trainers);
 marshalB2W2.addEventListener('click', displayB2W2Trainers);
 grimsleyB2W2.addEventListener('click', displayB2W2Trainers);
 caitlinB2W2.addEventListener('click', displayB2W2Trainers);
 irisB2W2.addEventListener('click', displayB2W2Trainers);
-cynthiaB2W2.addEventListener('click', displayB2W2Trainers);
