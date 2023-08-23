@@ -2,6 +2,7 @@ let halaSM = document.querySelector ("#hala1");
 let oliviaSM = document.querySelector ("#olivia1");
 let nanuSM = document.querySelector ("#nanu1");
 let hapuSM = document.querySelector ("#hapu1");
+let motherbeastSM = document.querySelector ("#motherbeast1");
 let halaE4SM = document.querySelector ("#hala2");
 let oliviaE4SM = document.querySelector ("#olivia2");
 let acerolaSM = document.querySelector ("#acerola1");
@@ -225,6 +226,88 @@ let sm_trainers = [
         move2d : "-Earthquake",
         move3d : "-Double Kick",
         move4d : "-Counter",
+    },
+
+    {
+        namea : "Clefable",
+        levela : "LV: 50",
+        typea : "Type: Fairy",
+        abilitya: "Ability: Magic Guard",
+        itema : "Item: None",
+        hpa : "HP: 202",
+        atka : "Atk: 73",
+        defa : "Def: 93",
+        spatka : "Sp. Atk: 107",
+        spdefa : "Sp. Def: 156 -> 234",
+        spda : "Spd: 72",
+        move1a : "-Moonblast",
+        move2a : "-Cosmic Power",
+        move3a : "-Metronome",
+        move4a : "-Moonlight",
+
+        nameb : "Lilligant",
+        levelb : "LV: 50",
+        typeb : "Type: Grass",
+        abilityb: "Ability: Own Tempo",
+        itemb : "Item: None",
+        hpb : "HP: 145",
+        atkb : "Atk: 64",
+        defb : "Def: 87",
+        spatkb : "Sp. Atk: 178 -> 267",
+        spdefb : "Sp. Def: 87",
+        spdb : "Spd: 142",
+        move1b : "-Leech Seed",
+        move2b : "-Petal Dance",
+        move3b : "-Teeter Dance",
+        move4b : "-Stun Spore",
+
+        namec : "Mismagius",
+        levelc : "LV: 50",
+        typec : "Type: Ghost",
+        abilityc: "Ability: Levitate",
+        itemc : "Item: None",
+        hpc : "HP: 135",
+        atkc : "Atk: 64",
+        defc : "Def: 72",
+        spatkc : "Sp. Atk: 172",
+        spdefc : "Sp. Def: 117",
+        spdc : "Spd: 157 -> 235",
+        move1c : "-Shadow Ball",
+        move2c : "-Power Gem",
+        move3c : "-Mystical Fire",
+        move4c : "-Pain Split",
+
+        named : "Milotic",
+        leveld : "LV: 50",
+        typed : "Type: Water",
+        abilityd: "Ability: Marvel Scale",
+        itemd : "Item: None",
+        hpd : "HP: 170",
+        atkd : "Atk: 64 -> 96",
+        defd : "Def: 91",
+        spatkd : "Sp. Atk: 167",
+        spdefd : "Sp. Def: 137",
+        spdd : "Spd: 133",
+        move1d : "-Hydro Pump",
+        move2d : "-Recover",
+        move3d : "-Safeguard",
+        move4d : "-Flail",
+
+        namee : "Bewear",
+        levele : "LV: 50",
+        typee : "Type: Normal/Fighting",
+        abilitye: "Ability: Fluffy",
+        iteme : "Item: None",
+        hpe : "HP: 227",
+        atke : "Atk: 194",
+        defe : "Def: 100 -> 150",
+        spatke : "Sp. Atk: 60",
+        spdefe : "Sp. Def: 72",
+        spde : "Spd: 72",
+        move1e : "-Baby-Doll Eyes",
+        move2e : "-Hammer Arm",
+        move3e : "-Take Down",
+        move4e : "-Pain Split",
     },
 
     {
@@ -1011,6 +1094,7 @@ halaSM.addEventListener('click', displaySMTrainers);
 oliviaSM.addEventListener('click', displaySMTrainers);
 nanuSM.addEventListener('click', displaySMTrainers);
 hapuSM.addEventListener('click', displaySMTrainers);
+motherbeastSM.addEventListener('click', displaySMTrainers);
 halaE4SM.addEventListener('click', displaySMTrainers);
 oliviaE4SM.addEventListener('click', displaySMTrainers);
 acerolaSM.addEventListener('click', displaySMTrainers);

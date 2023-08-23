@@ -6,6 +6,7 @@ let normanRS = document.querySelector ("#norman1");
 let winonaRS = document.querySelector ("#winona1");
 let tatelizaRS = document.querySelector ("#tateliza1");
 let wallaceRS = document.querySelector ("#wallace1");
+let wallyRS = document.querySelector ("#wally1");
 let sidneyRS = document.querySelector ("#sidney1");
 let phoebeRS = document.querySelector ("#phoebe1");
 let glaciaRS = document.querySelector ("#glacia1");
@@ -413,6 +414,88 @@ let rs_trainers = [
         move3e : "-Recover",
         move4e : "-Ice Beam",
 
+    },
+
+    {
+        namea : "Altaria",
+        levela : "LV: 44",
+        typea : "Type: Dragon/Flying",
+        abilitya: "Ability: Natural Cure",
+        itema : "Item: None",
+        hpa : "HP: 127",
+        atka : "Atk: 74",
+        defa : "Def: 92",
+        spatka : "Sp. Atk: 66",
+        spdefa : "Sp. Def: 105",
+        spda : "Spd: 91",
+        move1a : "-Aerial Ace",
+        move2a : "-Safeguard",
+        move3a : "-Dragon Breath",
+        move4a : "-Dragon Dance",
+
+        nameb : "Delcatty",
+        levelb : "LV: 43",
+        typeb : "Type: Normal",
+        abilityb: "Ability: Cute Charm",
+        itemb : "Item: None",
+        hpb : "HP: 120",
+        atkb : "Atk: 68",
+        defb : "Def: 68",
+        spatkb : "Sp. Atk: 60",
+        spdefb : "Sp. Def: 60",
+        spdb : "Spd: 72",
+        move1b : "-Sing",
+        move2b : "-Assist",
+        move3b : "-Charm",
+        move4b : "-Feint Attack",
+
+        namec : "Roselia",
+        levelc : "LV: 44",
+        typec : "Type: Grass/Poison",
+        abilityc: "Ability: Natural Cure",
+        itemc : "Item: None",
+        hpc : "HP: 105",
+        atkc : "Atk: 71",
+        defc : "Def: 52",
+        spatkc : "Sp. Atk: 90",
+        spdefc : "Sp. Def: 83",
+        spdc : "Spd: 70",
+        move1c : "-Magical Leaf",
+        move2c : "-Leech Seed",
+        move3c : "-Giga Drain",
+        move4c : "-Toxic",
+
+        named : "Magneton",
+        leveld : "LV: 41",
+        typed : "Type: Electric/Steel",
+        abilityd: "Ability: Magnet Pull",
+        itemd : "Item: None",
+        hpd : "HP: 99",
+        atkd : "Atk: 61",
+        defd : "Def: 99",
+        spatkd : "Sp. Atk: 99",
+        spdefd : "Sp. Def: 69",
+        spdd : "Spd: 69",
+        move1d : "-Supersonic",
+        move2d : "-Thunderbolt",
+        move3d : "-Tri Attack",
+        move4d : "-Screech",
+
+        namee : "Gardevoir",
+        levele : "LV: 45",
+        typee : "Type: Psychic",
+        abilitye: "Ability: Synchronize",
+        iteme : "Item: None",
+        hpe : "HP: 129",
+        atke : "Atk: 77",
+        defe : "Def: 77",
+        spatke : "Sp. Atk: 131",
+        spdefe : "Sp. Def: 109",
+        spde : "Spd: 99",
+        move1e : "-Double Team",
+        move2e : "-Calm Mind",
+        move3e : "-Psychic",
+        move4e : "-Future Sight",
     },
 
     {
@@ -1006,6 +1089,7 @@ normanRS.addEventListener('click', displayRSTrainers);
 winonaRS.addEventListener('click', displayRSTrainers);
 tatelizaRS.addEventListener('click', displayRSTrainers);
 wallaceRS.addEventListener('click', displayRSTrainers);
+wallyRS.addEventListener('click', displayRSTrainers);
 sidneyRS.addEventListener('click', displayRSTrainers);
 phoebeRS.addEventListener('click', displayRSTrainers);
 glaciaRS.addEventListener('click', displayRSTrainers);

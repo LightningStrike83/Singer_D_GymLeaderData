@@ -10,7 +10,7 @@ let aaronBDSP = document.querySelector ("#aaron3");
 let berthaBDSP = document.querySelector ("#bertha3");
 let flintBDSP = document.querySelector ("#flint3");
 let lucianBDSP = document.querySelector ("#lucian3");
-let cynthiaBDSP = document.querySelector ("#cynthia5");
+let cynthiaBDSP = document.querySelector ("#cynthia3");
 
 let bdsp_trainers = [
     {
