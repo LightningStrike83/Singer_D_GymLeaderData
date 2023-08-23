@@ -36,7 +36,9 @@ US/UM ability, item, and move data from: bulbapedia
 
 LGPE data from: eddaket https://docs.google.com/spreadsheets/d/1zlvzKZAF6m7V3xSsf1md4HGge9CzlnJypIacnQ4fKqs/edit#gid=1454927861 
 
-Sw/Sh data from: doipy hooves on Smogon https://pastebin.com/EUw7mEtR 
+Sw/Sh data calculated from: zu https://pastebin.com/iN1UKaz0 
+
+Piers data from: doipy hooves https://www.smogon.com/forums/threads/pokemon-sword-and-shield-datamine-thread.3656143/page-71 
 
 BDSP data from: Hematite/HemaH2O and Kaphotics https://heystacks.com/doc/1042/bdsp-trainer-data 
 
