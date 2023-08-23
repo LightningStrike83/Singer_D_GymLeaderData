@@ -22,7 +22,7 @@ BW data from: Human https://drive.google.com/file/d/1l7SBH1yeJvEYxml5DpARCNuC5yD
 
 Cress data from: JTMagicMan https://www.dropbox.com/s/vfy5xok1knq069a/Pokemon%20Black%20-%20Game%20Information%20(Tepig).xlsx?dl=0 
 
-B2W2 data calculated from: https://www.tapatalk.com/groups/nuzlocke_forum/official-natures-movesets-and-stats-t3452.html#p1630226 
+B2W2 data calculated from: sheepscope https://www.tapatalk.com/groups/nuzlocke_forum/official-natures-movesets-and-stats-t3452.html#p1630226 
 
 XY data from: wartab https://www.speedrun.com/pkmnxy/guides/2afgl
 
