@@ -11,6 +11,7 @@ let hgssGame = document.querySelector("#hgss");
 let ptGame = document.querySelector("#pt");
 let bwGame = document.querySelector("#bw");
 let b2w2Game = document.querySelector("#b2w2");
+let b2w2CGame = document.querySelector("#b2w2c");
 let xyGame = document.querySelector("#xy");
 let orasGame = document.querySelector("#oras");
 let smGame = document.querySelector("#sm");
@@ -94,6 +95,10 @@ function openB2W2() {
     toggleAndHide("b2w2_chars");
 }
 
+function openB2W2C() {
+  toggleAndHide("b2w2c_chars");
+}
+
 function openXY() {
     toggleAndHide("xy_chars");
 }
@@ -158,6 +163,7 @@ hgssGame.addEventListener('click', openHGSS);
 ptGame.addEventListener('click', openPT);
 bwGame.addEventListener('click', openBW);
 b2w2Game.addEventListener('click', openB2W2);
+b2w2CGame.addEventListener('click', openB2W2C);
 xyGame.addEventListener('click', openXY);
 orasGame.addEventListener('click', openORAS);
 smGame.addEventListener('click', openSM);
