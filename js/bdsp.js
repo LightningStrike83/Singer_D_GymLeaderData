@@ -1,10 +1,13 @@
 let roarkBDSP = document.querySelector ("#roark3");
+let marsBDSP = document.querySelector ("#mars3");
 let gardeniaBDSP = document.querySelector ("#gardenia3");
+let jupiterBDSP = document.querySelector ("#jupiter3");
 let mayleneBDSP = document.querySelector ("#maylene3");
 let crasherwakeBDSP = document.querySelector ("#crasherwake3");
 let fantinaBDSP = document.querySelector ("#fantina3");
 let byronBDSP = document.querySelector ("#byron3");
 let candiceBDSP = document.querySelector ("#candice3");
+let cyrusBDSP = document.querySelector ("#cyrus3");
 let volknerBDSP = document.querySelector ("#volkner3");
 let aaronBDSP = document.querySelector ("#aaron3");
 let berthaBDSP = document.querySelector ("#bertha3");
@@ -62,6 +65,40 @@ let bdsp_trainers = [
         move3c : "-Leer",
         move4c : "",
     },
+    
+    {
+        namea : "Zubat",
+        levela : "LV: 14",
+        typea : "Type: Poison/Flying",
+        abilitya: "Ability: Inner Focus",
+        itema : "Item: None",
+        hpa : "HP: 37",
+        atka : "Atk: 17",
+        defa : "Def: 16",
+        spatka : "Sp. Atk: 11",
+        spdefa : "Sp. Def: 18",
+        spda : "Spd: 22",
+        move1a : "-Absorb",
+        move2a : "-Supersonic",
+        move3a : "-Astonish",
+        move4a : "-U-Turn",
+
+        nameb : "Purugly",
+        levelb : "LV: 16",
+        typeb : "Type: Normal",
+        abilityb: "Ability: Thick Fat",
+        itemb : "Item: Oran Berry",
+        hpb : "HP: 51",
+        atkb : "Atk: 31",
+        defb : "Def: 27",
+        spatkb : "Sp. Atk: 22",
+        spdefb : "Sp. Def: 26",
+        spdb : "Spd: 44",
+        move1b : "-Fake Out",
+        move2b : "-Scratch",
+        move3b : "-Growl",
+        move4b : "-Thief",
+    },
 
     {
         namea : "Cherubi",
@@ -111,6 +148,40 @@ let bdsp_trainers = [
         move2c : "-Petal Blizzard",
         move3c : "-Poison Sting",
         move4c : "-Stun Spore",
+    },
+
+    {
+        namea : "Zubat",
+        levela : "LV: 18",
+        typea : "Type: Poison/Flying",
+        abilitya: "Ability: Inner Focus",
+        itema : "Item: None",
+        hpa : "HP: 48",
+        atka : "Atk: 18",
+        defa : "Def: 23",
+        spatka : "Sp. Atk: 16",
+        spdefa : "Sp. Def: 25",
+        spda : "Spd: 24",
+        move1a : "-Absorb",
+        move2a : "-Supersonic",
+        move3a : "-Mean Look",
+        move4a : "-Poison Fang",
+
+        nameb : "Skuntank",
+        levelb : "LV: 20",
+        typeb : "Type: Poison/Dark",
+        abilityb: "Ability: Aftermath",
+        itemb : "Item: Sitrus Berry",
+        hpb : "HP: 77",
+        atkb : "Atk: 37",
+        defb : "Def: 38",
+        spatkb : "Sp. Atk: 36",
+        spdefb : "Sp. Def: 35",
+        spdb : "Spd: 38",
+        move1b : "-Poison Gas",
+        move2b : "-Flamethrower",
+        move3b : "-Acid Spray",
+        move4b : "-Snarl",
     },
 
     {
@@ -377,6 +448,72 @@ let bdsp_trainers = [
         move2d : "-Giga Drain",
         move3d : "-Earthquake",
         move4d : "-Blizzard",
+    },
+
+    {
+        namea : "Honchkrow",
+        levela : "LV: 45",
+        typea : "Type: Dark/Flying",
+        abilitya: "Ability: Super Luck",
+        itema : "Item: Scope Lens",
+        hpa : "HP: 159",
+        atka : "Atk: 117",
+        defa : "Def: 66",
+        spatka : "Sp. Atk: 89",
+        spdefa : "Sp. Def: 66",
+        spda : "Spd: 74",
+        move1a : "-Night Slash",
+        move2a : "-Air Cutter",
+        move3a : "-Steel Wing",
+        move4a : "-Defog",
+
+        nameb : "Crobat",
+        levelb : "LV: 46",
+        typeb : "Type: Poison/Flying",
+        abilityb: "Ability: Infiltrator",
+        itemb : "Item: Quick Claw",
+        hpb : "HP: 148",
+        atkb : "Atk: 87",
+        defb : "Def: 93",
+        spatkb : "Sp. Atk: 62",
+        spdefb : "Sp. Def: 93",
+        spdb : "Spd: 136",
+        move1b : "-Cross Poison",
+        move2b : "-Air Cutter",
+        move3b : "-Tailwind",
+        move4b : "-U-Turn",
+
+        namec : "Gyarados",
+        levelc : "LV: 45",
+        typec : "Type: Water/Flying",
+        abilityc: "Ability: Intimidate",
+        itemc : "Item: Wacan Berry",
+        hpc : "HP: 154",
+        atkc : "Atk: 117",
+        defc : "Def: 90",
+        spatkc : "Sp. Atk: 53",
+        spdefc : "Sp. Def: 109",
+        spdc : "Spd: 84",
+        move1c : "-Waterfall",
+        move2c : "-Earthquake",
+        move3c : "-Ice Fang",
+        move4c : "-Crunch",
+
+        named : "Weavile",
+        leveld : "LV: 48",
+        typed : "Type: Dark/Ice",
+        abilityd: "Ability: Pickpocket",
+        itemd : "Item: Chople Berry",
+        hpd : "HP: 140",
+        atkd : "Atk: 120",
+        defd : "Def: 82",
+        spatkd : "Sp. Atk: 48",
+        spdefd : "Sp. Def: 101",
+        spdd : "Spd: 125",
+        move1d : "-Metal Claw",
+        move2d : "-Fling",
+        move3d : "-Dig",
+        move4d : "-Aerial ace",
     },
 
     {
@@ -1028,12 +1165,15 @@ function showPokemonBDSPImages(trainerId) {
 }
 
 roarkBDSP.addEventListener('click', displayBDSPTrainers);
+marsBDSP.addEventListener('click', displayBDSPTrainers);
 gardeniaBDSP.addEventListener('click', displayBDSPTrainers);
+jupiterBDSP.addEventListener('click', displayBDSPTrainers);
 mayleneBDSP.addEventListener('click', displayBDSPTrainers);
 crasherwakeBDSP.addEventListener('click', displayBDSPTrainers);
 fantinaBDSP.addEventListener('click', displayBDSPTrainers);
 byronBDSP.addEventListener('click', displayBDSPTrainers);
 candiceBDSP.addEventListener('click', displayBDSPTrainers);
+cyrusBDSP.addEventListener('click', displayBDSPTrainers);
 volknerBDSP.addEventListener('click', displayBDSPTrainers);
 aaronBDSP.addEventListener('click', displayBDSPTrainers);
 berthaBDSP.addEventListener('click', displayBDSPTrainers);
