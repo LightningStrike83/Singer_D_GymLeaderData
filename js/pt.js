@@ -1,10 +1,13 @@
 let roarkPT = document.querySelector ("#roark2");
+let marsPT = document.querySelector ("#mars2");
 let gardeniaPT = document.querySelector ("#gardenia2");
+let jupiterPT = document.querySelector ("#jupiter2");
 let maylenePT = document.querySelector ("#maylene2");
 let crasherwakePT = document.querySelector ("#crasherwake2");
 let fantinaPT = document.querySelector ("#fantina2");
 let byronPT = document.querySelector ("#byron2");
 let candicePT = document.querySelector ("#candice2");
+let cyrusPT = document.querySelector ("#cyrus2");
 let volknerPT = document.querySelector ("#volkner2");
 let aaronPT = document.querySelector ("#aaron2");
 let berthaPT = document.querySelector ("#bertha2");
@@ -64,7 +67,40 @@ let pt_trainers = [
     },
 
     {
+        namea : "Zubat",
+        levela : "LV: 15",
+        typea : "Type: Poison/Flying",
+        abilitya: "Ability: Inner Focus",
+        itema : "Item: None",
+        hpa : "HP: 38",
+        atka : "Atk: 18",
+        defa : "Def: 18",
+        spatka : "Sp. Atk: 15",
+        spdefa : "Sp. Def: 18",
+        spda : "Spd: 23",
+        move1a : "-Bite",
+        move2a : "-Leech Life",
+        move3a : "-Toxic",
+        move4a : "",
 
+        nameb : "Purugly",
+        levelb : "LV: 17",
+        typeb : "Type: Normal",
+        abilityb: "Ability: Thick Fat",
+        itemb : "Item: Oran Berry",
+        hpb : "HP: 53",
+        atkb : "Atk: 34",
+        defb : "Def: 28",
+        spatkb : "Sp. Atk: 28",
+        spdefb : "Sp. Def: 27",
+        spdb : "Spd: 45",
+        move1b : "-Fake Out",
+        move2b : "-Scratch",
+        move3b : "-Feint Attack",
+        move4b : "",
+    },
+
+    {
         namea : "Turtwig",
         levela : "LV: 20",
         typea : "Type: Grass",
@@ -112,6 +148,40 @@ let pt_trainers = [
         move2c : "-Magical Leaf",
         move3c : "-Poison Sting",
         move4c : "-Stun Spore",
+    },
+
+    {
+        namea : "Zubat",
+        levela : "LV: 21",
+        typea : "Type: Poison/Flying",
+        abilitya: "Ability: Inner Focus",
+        itema : "Item: None",
+        hpa : "HP: 50",
+        atka : "Atk: 28",
+        defa : "Def: 22",
+        spatka : "Sp. Atk: 20",
+        spdefa : "Sp. Def: 24",
+        spda : "Spd: 27",
+        move1a : "-Giga Drain",
+        move2a : "-Wing Attack",
+        move3a : "-Bite",
+        move4a : "",
+
+        nameb : "Skuntank",
+        levelb : "LV: 23",
+        typeb : "Type: Poison/Dark",
+        abilityb: "Ability: Stench",
+        itemb : "Item: Sitrus Berry",
+        hpb : "HP: 83",
+        atkb : "Atk: 45",
+        defb : "Def: 38",
+        spatkb : "Sp. Atk: 44",
+        spdefb : "Sp. Def: 35",
+        spdb : "Spd: 46",
+        move1b : "-Poison Gas",
+        move2b : "-Night Slash",
+        move3b : "-Screech",
+        move4b : "-Smokescreen",
     },
 
     {
@@ -379,6 +449,88 @@ let pt_trainers = [
         move2d : "-Double Team",
         move3d : "-Psychic",
         move4d : "-Blizzard",
+    },
+
+    {
+        namea : "Houndoom",
+        levela : "LV: 45",
+        typea : "Type: Dark/Fire",
+        abilitya: "Ability: Flash Fire",
+        itema : "Item: None",
+        hpa : "HP: 136",
+        atka : "Atk: 99",
+        defa : "Def: 63",
+        spatka : "Sp. Atk: 117",
+        spdefa : "Sp. Def: 90",
+        spda : "Spd: 104",
+        move1a : "-Will-O-Wisp",
+        move2a : "-Flamethrower",
+        move3a : "-Dark Pulse",
+        move4a : "-Thunder Fang",
+
+        nameb : "Honchkrow",
+        levelb : "LV: 47",
+        typeb : "Type: Dark/Flying",
+        abilityb: "Ability: Insomnia",
+        itemb : "Item: None",
+        hpb : "HP: 165",
+        atkb : "Atk: 149",
+        defb : "Def: 67",
+        spatkb : "Sp. Atk: 105",
+        spdefb : "Sp. Def: 67",
+        spdb : "Spd: 85",
+        move1b : "-Night Slash",
+        move2b : "-Drill Peck",
+        move3b : "-Heat Wave",
+        move4b : "-Psychic",
+
+        namec : "Crobat",
+        levelc : "LV: 46",
+        typec : "Type: Poison/Flying",
+        abilityc: "Ability: Inner Focus",
+        itemc : "Item: None",
+        hpc : "HP: 148",
+        atkc : "Atk: 101",
+        defc : "Def: 92",
+        spatkc : "Sp. Atk: 83",
+        spdefc : "Sp. Def: 82",
+        spdc : "Spd: 151",
+        move1c : "-Toxic",
+        move2c : "-Cross Poison",
+        move3c : "-Air Slash",
+        move4c : "-Confuse Ray",
+
+        named : "Gyarados",
+        leveld : "LV: 46",
+        typed : "Type: Water/Flying",
+        abilityd: "Ability: Intimidate",
+        itemd : "Item: None",
+        hpd : "HP: 157",
+        atkd : "Atk: 133",
+        defd : "Def: 91",
+        spatkd : "Sp. Atk: 66",
+        spdefd : "Sp. Def: 121",
+        spdd : "Spd: 93",
+        move1d : "-Waterfall",
+        move2d : "-Earthquake",
+        move3d : "-Ice Fang",
+        move4d : "-Giga Impact",
+
+        namee : "Weavile",
+        levele : "LV: 48",
+        typee : "Type: Dark/Ice",
+        abilitye: "Ability: Pressure",
+        iteme : "Item: Sitrus Berry",
+        hpe : "HP: 139",
+        atke : "Atk: 120",
+        defe : "Def: 81",
+        spatke : "Sp. Atk: 68",
+        spdefe : "Sp. Def: 101",
+        spde : "Spd: 139",
+        move1e : "-Fake Out",
+        move2e : "-Night Slash",
+        move3e : "-Ice Punch",
+        move4e : "-X-Scissor",
     },
 
     {
@@ -1031,12 +1183,15 @@ function showPokemonPTImages(trainerId) {
 }
 
 roarkPT.addEventListener('click', displayPTTrainers);
+marsPT.addEventListener('click', displayPTTrainers);
 gardeniaPT.addEventListener('click', displayPTTrainers);
+jupiterPT.addEventListener('click', displayPTTrainers);
 maylenePT.addEventListener('click', displayPTTrainers);
 crasherwakePT.addEventListener('click', displayPTTrainers);
 fantinaPT.addEventListener('click', displayPTTrainers);
 byronPT.addEventListener('click', displayPTTrainers);
 candicePT.addEventListener('click', displayPTTrainers);
+cyrusPT.addEventListener('click', displayPTTrainers);
 volknerPT.addEventListener('click', displayPTTrainers);
 aaronPT.addEventListener('click', displayPTTrainers);
 berthaPT.addEventListener('click', displayPTTrainers);

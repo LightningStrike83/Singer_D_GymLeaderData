@@ -1,10 +1,13 @@
 let roarkDP = document.querySelector ("#roark1");
+let marsDP = document.querySelector ("#mars1");
 let gardeniaDP = document.querySelector ("#gardenia1");
+let jupiterDP = document.querySelector ("#jupiter1");
 let mayleneDP = document.querySelector ("#maylene1");
 let crasherwakeDP = document.querySelector ("#crasherwake1");
 let fantinaDP = document.querySelector ("#fantina1");
 let byronDP = document.querySelector ("#byron1");
 let candiceDP = document.querySelector ("#candice1");
+let cyrusDP = document.querySelector ("#cyrus1");
 let volknerDP = document.querySelector ("#volkner1");
 let aaronDP = document.querySelector ("#aaron1");
 let berthaDP = document.querySelector ("#bertha1");
@@ -64,6 +67,40 @@ let dp_trainers = [
     },
 
     {
+        namea : "Zubat",
+        levela : "LV: 14",
+        typea : "Type: Poison/Flying",
+        abilitya: "Ability: Inner Focus",
+        itema : "Item: None",
+        hpa : "HP: 36",
+        atka : "Atk: 17",
+        defa : "Def: 16",
+        spatka : "Sp. Atk: 15",
+        spdefa : "Sp. Def: 18",
+        spda : "Spd: 22",
+        move1a : "-Bite",
+        move2a : "-Leech Life",
+        move3a : "-Toxic",
+        move4a : "",
+
+        nameb : "Purugly",
+        levelb : "LV: 16",
+        typeb : "Type: Normal",
+        abilityb: "Ability: Thick Fat",
+        itemb : "Item: Oran Berry",
+        hpb : "HP: 50",
+        atkb : "Atk: 33",
+        defb : "Def: 29",
+        spatkb : "Sp. Atk: 24",
+        spdefb : "Sp. Def: 25",
+        spdb : "Spd: 42",
+        move1b : "-Fake Out",
+        move2b : "-Scratch",
+        move3b : "-Feint Attack",
+        move4b : "",
+    },
+
+    {
         namea : "Cherubi",
         levela : "LV: 19",
         typea : "Type: Grass",
@@ -111,6 +148,40 @@ let dp_trainers = [
         move2c : "-Magical Leaf",
         move3c : "-Poison Sting",
         move4c : "-Stun Spore",
+    },
+
+    {
+        namea : "Zubat",
+        levela : "LV: 18",
+        typea : "Type: Poison/Flying",
+        abilitya: "Ability: Inner Focus",
+        itema : "Item: None",
+        hpa : "HP: 44",
+        atka : "Atk: 23",
+        defa : "Def: 19",
+        spatka : "Sp. Atk: 17",
+        spdefa : "Sp. Def: 21",
+        spda : "Spd: 26",
+        move1a : "-Giga Drain",
+        move2a : "-Wing Attack",
+        move3a : "-Bite",
+        move4a : "",
+
+        nameb : "Skuntank",
+        levelb : "LV: 20",
+        typeb : "Type: Poison/Dark",
+        abilityb: "Ability: Stench",
+        itemb : "Item: Sitrus Berry",
+        hpb : "HP: 73",
+        atkb : "Atk: 44",
+        defb : "Def: 30",
+        spatkb : "Sp. Atk: 38",
+        spdefb : "Sp. Def: 31",
+        spdb : "Spd: 41",
+        move1b : "-Poison Gas",
+        move2b : "-Night Slash",
+        move3b : "-Screech",
+        move4b : "-Smokescreen",
     },
 
     {
@@ -377,6 +448,72 @@ let dp_trainers = [
         move2d : "-Swagger",
         move3d : "-Grass Whistle",
         move4d : "-Avalanche",
+    },
+
+    {
+        namea : "Honchkrow",
+        levela : "LV: 45",
+        typea : "Type: Insomnia",
+        abilitya: "Ability: Dark/Flying",
+        itema : "Item: None",
+        hpa : "HP: 155",
+        atka : "Atk: 128",
+        defa : "Def: 62",
+        spatka : "Sp. Atk: 110",
+        spdefa : "Sp. Def: 62",
+        spda : "Spd: 79",
+        move1a : "-Drill Peck",
+        move2a : "-Dark Pulse",
+        move3a : "-Steel Wing",
+        move4a : "-Embargo",
+
+        nameb : "Gyarados",
+        levelb : "LV: 45",
+        typeb : "Type: Water/Flying",
+        abilityb: "Ability: Intimidate",
+        itemb : "Item: None",
+        hpb : "HP: 151",
+        atkb : "Atk: 128",
+        defb : "Def: 86",
+        spatkb : "Sp. Atk: 75",
+        spdefb : "Sp. Def: 105",
+        spdb : "Spd: 79",
+        move1b : "-Aqua Tail",
+        move2b : "-Earthquake",
+        move3b : "-Ice Fang",
+        move4b : "-Earthquake",
+
+        namec : "Crobat",
+        levelc : "LV: 46",
+        typec : "Type: Poison/Flying",
+        abilityc: "Ability: Inner Focus",
+        itemc : "Item: None",
+        hpc : "HP: 145",
+        atkc : "Atk: 98",
+        defc : "Def: 89",
+        spatkc : "Sp. Atk: 80",
+        spdefc : "Sp. Def: 89",
+        spdc : "Spd: 135",
+        move1c : "-Cross Poison",
+        move2c : "-Air Slash",
+        move3c : "-Bite",
+        move4c : "-Confuse Ray",
+
+        named : "Weavile",
+        leveld : "LV: 48",
+        typed : "Type: Dark/Ice",
+        abilityd: "Ability: Pressure",
+        itemd : "Item: Sitrus Berry",
+        hpd : "HP: 136",
+        atkd : "Atk: 144",
+        defd : "Def: 70",
+        spatkd : "Sp. Atk: 59",
+        spdefd : "Sp. Def: 98",
+        spdd : "Spd: 136",
+        move1d : "-Night Slash",
+        move2d : "-Ice Punch",
+        move3d : "-Brick Break",
+        move4d : "-X-Scissor",
     },
 
     {
@@ -1027,12 +1164,15 @@ function showPokemonDPImages(trainerId) {
 }
 
 roarkDP.addEventListener('click', displaydpTrainers);
+marsDP.addEventListener('click', displaydpTrainers);
 gardeniaDP.addEventListener('click', displaydpTrainers);
+jupiterDP.addEventListener('click', displaydpTrainers);
 mayleneDP.addEventListener('click', displaydpTrainers);
 crasherwakeDP.addEventListener('click', displaydpTrainers);
 fantinaDP.addEventListener('click', displaydpTrainers);
 byronDP.addEventListener('click', displaydpTrainers);
 candiceDP.addEventListener('click', displaydpTrainers);
+cyrusDP.addEventListener('click', displaydpTrainers);
 volknerDP.addEventListener('click', displaydpTrainers);
 aaronDP.addEventListener('click', displaydpTrainers);
 berthaDP.addEventListener('click', displaydpTrainers);
