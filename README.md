@@ -38,11 +38,11 @@ LGPE data from: eddaket https://docs.google.com/spreadsheets/d/1zlvzKZAF6m7V3xSs
 
 Sw/Sh data calculated from: zu https://pastebin.com/iN1UKaz0 
 
-Piers data from: doipy hooves https://www.smogon.com/forums/threads/pokemon-sword-and-shield-datamine-thread.3656143/page-71 
+Piers data calculated from: doipy hooves https://www.smogon.com/forums/threads/pokemon-sword-and-shield-datamine-thread.3656143/page-71 
 
-BDSP data from: Hematite/HemaH2O and Kaphotics https://heystacks.com/doc/1042/bdsp-trainer-data 
+BDSP data calculated from: Hematite/HemaH2O and Kaphotics https://heystacks.com/doc/1042/bdsp-trainer-data 
 
-S/V data from: Hematite/HemaH2O https://docs.google.com/spreadsheets/d/16XSoEjfAyWhvqUV8t2TZR_RD8Qceb4RVYbR5njS8aHk/htmlview
+S/V data calculated from: Hematite/HemaH2O https://docs.google.com/spreadsheets/d/16XSoEjfAyWhvqUV8t2TZR_RD8Qceb4RVYbR5njS8aHk/htmlview
 
 XY/ORAS/SM/USUM/LGPE/SWSH/BDSP/SV Pokemon images from: serebii
 
