@@ -5,6 +5,8 @@ let flanneryORAS = document.querySelector ("#flannery3");
 let normanORAS = document.querySelector ("#norman3");
 let winonaORAS = document.querySelector ("#winona3");
 let tatelizaORAS = document.querySelector ("#tateliza3");
+let maxieORAS = document.querySelector ("#maxie3");
+let archieORAS = document.querySelector ("#archie3");
 let wallaceORAS = document.querySelector ("#wallace3");
 let wallyORAS = document.querySelector ("#wally3");
 let sidneyORAS = document.querySelector ("#sidney3");
@@ -12,6 +14,7 @@ let phoebeORAS = document.querySelector ("#phoebe3");
 let glaciaORAS = document.querySelector ("#glacia3");
 let drakeORAS = document.querySelector ("#drake3");
 let stevenORAS = document.querySelector ("#steven3");
+let zinniaORAS = document.querySelector ("#zinnia1");
 
 let oras_trainers = [
     {
@@ -331,6 +334,138 @@ let oras_trainers = [
         move2b : "-Psychic",
         move3b : "-Rock Slide",
         move4b : "-Sunny Day",
+    },
+
+    {
+        namea : "Mightyena",
+        levela : "LV: 41",
+        typea : "Type: Dark",
+        abilitya: "Ability: Quick Feet",
+        itema : "Item: None",
+        hpa : "HP: U/A",
+        atka : "Atk: U/A",
+        defa : "Def: U/A",
+        spatka : "Sp. Atk: U/A",
+        spdefa : "Sp. Def: U/A",
+        spda : "Spd: U/A",
+        move1a : "-Take Down",
+        move2a : "-Scary Face",
+        move3a : "-Taunt",
+        move4a : "-Embargo",
+
+        nameb : "Weezing",
+        levelb : "LV: 41",
+        typeb : "Type: Poison",
+        abilityb: "Ability: Levitate",
+        itemb : "Item: None",
+        hpb : "HP: U/A",
+        atkb : "Atk: U/A",
+        defb : "Def: U/A",
+        spatkb : "Sp. Atk: U/A",
+        spdefb : "Sp. Def: U/A",
+        spdb : "Spd: U/A",
+        move1b : "-Sludge Bomb",
+        move2b : "-Double Hit",
+        move3b : "-Haze",
+        move4b : "-Explosion",
+
+        namec : "Crobat",
+        levelc : "LV: 41",
+        typec : "Type: Poison/Flying",
+        abilityc: "Ability: Inner Focus",
+        itemc : "Item: None",
+        hpc : "HP: U/A",
+        atkc : "Atk: U/A",
+        defc : "Def: U/A",
+        spatkc : "Sp. Atk: U/A",
+        spdefc : "Sp. Def: U/A",
+        spdc : "Spd: U/A",
+        move1c : "-Poison Fang",
+        move2c : "-Mean Look",
+        move3c : "-Acrobatics",
+        move4c : "-Haze",
+
+        named : "Mega Camerupt",
+        leveld : "LV: 43",
+        typed : "Type: Fire/Ground",
+        abilityd: "Ability: Sheer Force",
+        itemd : "Item: Cameruptite",
+        hpd : "HP: U/A",
+        atkd : "Atk: U/A",
+        defd : "Def: U/A",
+        spatkd : "Sp. Atk: U/A",
+        spdefd : "Sp. Def: U/A",
+        spdd : "Spd: U/A",
+        move1d : "-Rock Slide",
+        move2d : "-Take Down",
+        move3d : "-Yawn",
+        move4d : "-Curse",
+    },
+
+    {
+        namea : "Mightyena",
+        levela : "LV: 41",
+        typea : "Type: Dark",
+        abilitya: "Ability: Quick Feet",
+        itema : "Item: None",
+        hpa : "HP: U/A",
+        atka : "Atk: U/A",
+        defa : "Def: U/A",
+        spatka : "Sp. Atk: U/A",
+        spdefa : "Sp. Def: U/A",
+        spda : "Spd: U/A",
+        move1a : "-Take Down",
+        move2a : "-Scary Face",
+        move3a : "-Taunt",
+        move4a : "-Embargo",
+
+        nameb : "Muk",
+        levelb : "LV: 41",
+        typeb : "Type: Poison",
+        abilityb: "Ability: Stench",
+        itemb : "Item: None",
+        hpb : "HP: U/A",
+        atkb : "Atk: U/A",
+        defb : "Def: U/A",
+        spatkb : "Sp. Atk: U/A",
+        spdefb : "Sp. Def: U/A",
+        spdb : "Spd: U/A",
+        move1b : "-Sludge Wave",
+        move2b : "-Screech",
+        move3b : "-Gunk Shot",
+        move4b : "-Venom Drench",
+
+        namec : "Crobat",
+        levelc : "LV: 41",
+        typec : "Type: Poison/Flying",
+        abilityc: "Ability: Inner Focus",
+        itemc : "Item: None",
+        hpc : "HP: U/A",
+        atkc : "Atk: U/A",
+        defc : "Def: U/A",
+        spatkc : "Sp. Atk: U/A",
+        spdefc : "Sp. Def: U/A",
+        spdc : "Spd: U/A",
+        move1c : "-Poison Fang",
+        move2c : "-Mean Look",
+        move3c : "-Acrobatics",
+        move4c : "-Haze",
+
+        named : "Mega Sharpedo",
+        leveld : "LV: 43",
+        typed : "Type: Water/Dark",
+        abilityd: "Ability: Strong Jaw",
+        itemd : "Item: Sharpedonite",
+        hpd : "HP: U/A",
+        atkd : "Atk: U/A",
+        defd : "Def: U/A",
+        spatkd : "Sp. Atk: U/A",
+        spdefd : "Sp. Def: U/A",
+        spdd : "Spd: U/A",
+        move1d : "-Crunch",
+        move2d : "-Poison Fang",
+        move3d : "-Crunch",
+        move4d : "-Scary Face",
     },
 
     {
@@ -925,6 +1060,88 @@ let oras_trainers = [
         move3f : "-Meteor Mash",
         move4f : "-Giga Impact",
     },
+
+    {
+        namea : "Goodra",
+        levela : "LV: 60",
+        typea : "Type: Dragon",
+        abilitya: "Ability: Sap Sipper",
+        itema : "Item: None",
+        hpa : "HP: U/A",
+        atka : "Atk: U/A",
+        defa : "Def: U/A",
+        spatka : "Sp. Atk: U/A",
+        spdefa : "Sp. Def: U/A",
+        spda : "Spd: U/A",
+        move1a : "-Dragon Pulse",
+        move2a : "-Muddy Water",
+        move3a : "-Thunderbolt",
+        move4a : "-Ice Beam",
+
+        nameb : "Tyrantrum",
+        levelb : "LV: 60",
+        typeb : "Type: Rock/Dragon",
+        abilityb: "Ability: Strong Jaw",
+        itemb : "Item: None",
+        hpb : "HP: U/A",
+        atkb : "Atk: U/A",
+        defb : "Def: U/A",
+        spatkb : "Sp. Atk: U/A",
+        spdefb : "Sp. Def: U/A",
+        spdb : "Spd: U/A",
+        move1b : "-Dragon Claw",
+        move2b : "-Crunch",
+        move3b : "-Stone Edge",
+        move4b : "-Earthquake",
+
+        namec : "Altaria",
+        levelc : "LV: 60",
+        typec : "Type: Dragon/Flying",
+        abilityc: "Ability: Natural Cure",
+        itemc : "Item: None",
+        hpc : "HP: U/A",
+        atkc : "Atk: U/A",
+        defc : "Def: U/A",
+        spatkc : "Sp. Atk: U/A",
+        spdefc : "Sp. Def: U/A",
+        spdc : "Spd: U/A",
+        move1c : "-",
+        move2c : "-",
+        move3c : "-",
+        move4c : "-",
+
+        named : "Noivern",
+        leveld : "LV: 60",
+        typed : "Type: Flying/Dragon",
+        abilityd: "Ability: Infiltrator",
+        itemd : "Item: None",
+        hpd : "HP: U/A",
+        atkd : "Atk: U/A",
+        defd : "Def: U/A",
+        spatkd : "Sp. Atk: U/A",
+        spdefd : "Sp. Def: U/A",
+        spdd : "Spd: U/A",
+        move1d : "-Dragon Pulse",
+        move2d : "-Air Slash",
+        move3d : "-Shadow Ball",
+        move4d : "-Super Fang",
+
+        namee : "Mega Salamence",
+        levele : "LV: 62",
+        typee : "Type: Dragon/Flying",
+        abilitye: "Ability: Aerilate",
+        iteme : "Item: Salamencite",
+        hpe : "HP: U/A",
+        atke : "Atk: U/A",
+        defe : "Def: U/A",
+        spatke : "Sp. Atk: U/A",
+        spdefe : "Sp. Def: U/A",
+        spde : "Spd: U/A",
+        move1e : "-Dragon Claw",
+        move2e : "-Crunch",
+        move3e : "-Fire Fang",
+        move4e : "-Ice Fang",
+    }
 ]
 
 function displayORASTrainers() {
@@ -1089,6 +1306,8 @@ flanneryORAS.addEventListener('click', displayORASTrainers);
 normanORAS.addEventListener('click', displayORASTrainers);
 winonaORAS.addEventListener('click', displayORASTrainers);
 tatelizaORAS.addEventListener('click', displayORASTrainers);
+maxieORAS.addEventListener('click', displayORASTrainers);
+archieORAS.addEventListener('click', displayORASTrainers);
 wallaceORAS.addEventListener('click', displayORASTrainers);
 wallyORAS.addEventListener('click', displayORASTrainers);
 sidneyORAS.addEventListener('click', displayORASTrainers);
@@ -1096,3 +1315,4 @@ phoebeORAS.addEventListener('click', displayORASTrainers);
 glaciaORAS.addEventListener('click', displayORASTrainers);
 drakeORAS.addEventListener('click', displayORASTrainers);
 stevenORAS.addEventListener('click', displayORASTrainers);
+zinniaORAS.addEventListener('click', displayORASTrainers);

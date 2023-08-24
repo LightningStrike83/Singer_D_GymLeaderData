@@ -4,6 +4,7 @@ let korrinaXY = document.querySelector ("#korrina1");
 let ramosXY = document.querySelector ("#ramos1");
 let clemontXY = document.querySelector ("#clemont1");
 let valerieXY = document.querySelector ("#valerie1");
+let lysandreXY = document.querySelector ("#lysandre1");
 let olympiaXY = document.querySelector ("#olympia1");
 let wulfricXY = document.querySelector ("#wulfric1");
 let malvaXY = document.querySelector ("#malva1");
@@ -329,6 +330,72 @@ let xy_trainers = [
         move2c : "-Calm Mind",
         move3c : "-Fake Out",
         move4c : "-Shadow Ball",
+    },
+
+    {
+        namea : "Mienshao",
+        levela : "LV: 49",
+        typea : "Type: Fighting",
+        abilitya: "Ability: Inner Focus",
+        itema : "Item: None",
+        hpa : "HP: 132",
+        atka : "Atk: 137",
+        defa : "Def: 73",
+        spatka : "Sp. Atk: 96",
+        spdefa : "Sp. Def: 73",
+        spda : "Spd: 128",
+        move1a : "-Swords Dance",
+        move2a : "-High Jump Kick",
+        move3a : "-Acrobatics",
+        move4a : "",
+
+        nameb : "Honchkrow",
+        levelb : "LV: 49",
+        typeb : "Type: Dark/Flying",
+        abilityb: "Ability: Super Luck",
+        itemb : "Item: None",
+        hpb : "HP: 166",
+        atkb : "Atk: 137",
+        defb : "Def: 58",
+        spatkb : "Sp. Atk: 117",
+        spdefb : "Sp. Def: 65",
+        spdb : "Spd: 92",
+        move1b : "-Night Slash",
+        move2b : "-Aerial Ace",
+        move3b : "-Retaliate",
+        move4b : "-Steel Wing",
+
+        namec : "Pyroar",
+        levelc : "LV: 49",
+        typec : "Type: Fire/Normal",
+        abilityc: "Ability: Unnerve",
+        itemc : "Item: None",
+        hpc : "HP: 158",
+        atkc : "Atk: 75",
+        defc : "Def: 88",
+        spatkc : "Sp. Atk: 138",
+        spdefc : "Sp. Def: 82",
+        spdc : "Spd: 123",
+        move1c : "-Hyper Voice",
+        move2c : "-Fire Blast",
+        move3c : "-Dark Pulse",
+        move4c : "",
+
+        named : "Mega Gyarados",
+        leveld : "LV: 53",
+        typed : "Type: Water/Dark",
+        abilityd: "Ability: Mold Breaker",
+        itemd : "Item: Gyaradosite",
+        hpd : "HP: 174",
+        atkd : "Atk: 196",
+        defd : "Def: 131",
+        spatkd : "Sp. Atk: 80",
+        spdefd : "Sp. Def: 153",
+        spdd : "Spd: 101",
+        move1d : "-Aqua Tail",
+        move2d : "-Earthquake",
+        move3d : "-Iron Head",
+        move4d : "-Outrage",
     },
 
     {
@@ -907,6 +974,7 @@ korrinaXY.addEventListener('click', displayXYTrainers);
 ramosXY.addEventListener('click', displayXYTrainers);
 clemontXY.addEventListener('click', displayXYTrainers);
 valerieXY.addEventListener('click', displayXYTrainers);
+lysandreXY.addEventListener('click', displayXYTrainers);
 olympiaXY.addEventListener('click', displayXYTrainers);
 wulfricXY.addEventListener('click', displayXYTrainers);
 malvaXY.addEventListener('click', displayXYTrainers);
