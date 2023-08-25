@@ -451,7 +451,7 @@ let xy_trainers = [
     {
         namea : "Pyroar",
         levela : "LV: 63",
-        typea : "Type: Normal/Fire",
+        typea : "Type: Fire/Normal",
         abilitya: "Ability: Rivalry",
         itema : "Item: None",
         hpa : "HP: 195",
