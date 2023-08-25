@@ -790,7 +790,7 @@ let lgpe_trainers = [
         move1a : "-Quick Attack",
         move2a : "-Air Slash",
         move3a : "-Heat Wave",
-        move4a : "-",
+        move4a : "",
 
         nameb : "Vileplume",
         levelb : "LV: 56",
@@ -806,7 +806,7 @@ let lgpe_trainers = [
         move1b : "-Solar Beam",
         move2b : "-Reflect",
         move3b : "-Sludge Bomb",
-        move4b : "-",
+        move4b : "",
 
         namec : "Marowak",
         levelc : "LV: 56",
@@ -822,7 +822,7 @@ let lgpe_trainers = [
         move1c : "-Fire Punch",
         move2c : "-Bonemerang",
         move3c : "-Brick Break",
-        move4c : "-",
+        move4c : "",
 
         named : "Rapidash",
         leveld : "LV: 56",
@@ -838,7 +838,7 @@ let lgpe_trainers = [
         move1d : "-Flare Blitz",
         move2d : "-Quick Attack",
         move3d : "-Poison Jab",
-        move4d : "-",
+        move4d : "",
 
         namee : "Slowbro",
         levele : "LV: 56",
@@ -854,7 +854,7 @@ let lgpe_trainers = [
         move1e : "-Psychic",
         move2e : "-Surf",
         move3e : "-Light Screen",
-        move4e : "-",
+        move4e : "",
 
         namef : "Jolteon",
         levelf : "LV: 57",
@@ -870,7 +870,7 @@ let lgpe_trainers = [
         move1f : "-Thunder",
         move2f : "-Quick Attack",
         move3f : "-Pin Missile",
-        move4f : "-",
+        move4f : "",
     },
 
     {
@@ -888,7 +888,7 @@ let lgpe_trainers = [
         move1a : "-Quick Attack",
         move2a : "-Air Slash",
         move3a : "-Heat Wave",
-        move4a : "-",
+        move4a : "",
 
         nameb : "Vileplume",
         levelb : "LV: 56",
@@ -904,7 +904,7 @@ let lgpe_trainers = [
         move1b : "-Solar Beam",
         move2b : "-Reflect",
         move3b : "-Sludge Bomb",
-        move4b : "-",
+        move4b : "",
 
         namec : "Marowak",
         levelc : "LV: 56",
@@ -920,7 +920,7 @@ let lgpe_trainers = [
         move1c : "-Fire Punch",
         move2c : "-Bonemerang",
         move3c : "-Brick Break",
-        move4c : "-",
+        move4c : "",
 
         named : "Rapidash",
         leveld : "LV: 56",
@@ -936,7 +936,7 @@ let lgpe_trainers = [
         move1d : "-Flare Blitz",
         move2d : "-Quick Attack",
         move3d : "-Poison Jab",
-        move4d : "-",
+        move4d : "",
 
         namee : "Slowbro",
         levele : "LV: 56",
@@ -952,7 +952,7 @@ let lgpe_trainers = [
         move1e : "-Psychic",
         move2e : "-Surf",
         move3e : "-Light Screen",
-        move4e : "-",
+        move4e : "",
 
         namef : "Raichu",
         levelf : "LV: 57",
@@ -968,7 +968,7 @@ let lgpe_trainers = [
         move1f : "-Thunder",
         move2f : "-Quick Attack",
         move3f : "-Iron Tail",
-        move4f : "-",
+        move4f : "",
     },
 
 ]
